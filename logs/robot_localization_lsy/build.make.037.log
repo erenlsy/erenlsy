@@ -1,0 +1,3 @@
+[ 37%] Built target positioning_system_node
+[ 75%] Built target odometry_node
+[100%] Built target transformation_visualization_node

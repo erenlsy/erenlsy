@@ -1,0 +1,3 @@
+[ 33%] Built target turtle_tf2_broadcaster
+[ 66%] Built target moving_coordinate_system
+[100%] Built target pub_marker_msgs

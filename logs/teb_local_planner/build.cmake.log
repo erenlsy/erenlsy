@@ -1,0 +1,63 @@
+Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/lsy/catkin_ws/devel
+-- Using CMAKE_PREFIX_PATH: /home/lsy/catkin_ws/devel;/opt/ros/melodic
+-- This workspace overlays: /home/lsy/catkin_ws/devel;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2")
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/lsy/catkin_ws/build/teb_local_planner/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17")
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- System: Linux-5.4.0-67-generic
+-- /opt/ros/melodic/share/cmake_modules/cmake/../../../share/cmake_modules/cmake/Modules;/home/lsy/catkin_ws/src/4wd_wheeltec/src/teb_local_planner-melodic-devel/cmake_modules
+-- Boost version: 1.65.1
+-- Found the following Boost libraries:
+--   system
+--   thread
+--   graph
+--   chrono
+--   date_time
+--   atomic
+-- Found SuiteSparse
+-- Searching for g2o ...
+-- Found g2o headers in: /opt/ros/melodic/include/g2o
+-- Found libg2o: /opt/ros/melodic/lib/libg2o_csparse_extension.so;/opt/ros/melodic/lib/libg2o_core.so;/opt/ros/melodic/lib/libg2o_stuff.so;/opt/ros/melodic/lib/libg2o_types_slam2d.so;/opt/ros/melodic/lib/libg2o_types_slam3d.so;/opt/ros/melodic/lib/libg2o_solver_cholmod.so;/opt/ros/melodic/lib/libg2o_solver_pcg.so;/opt/ros/melodic/lib/libg2o_solver_csparse.so;/opt/ros/melodic/lib/libg2o_incremental.so
+-- Performing Test COMPILER_SUPPORTS_CXX11
+-- Performing Test COMPILER_SUPPORTS_CXX11 - Success
+-- Performing Test COMPILER_SUPPORTS_CXX0X
+-- Performing Test COMPILER_SUPPORTS_CXX0X - Success
+-- teb_local_planner: 3 messages, 0 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lsy/catkin_ws/build/teb_local_planner

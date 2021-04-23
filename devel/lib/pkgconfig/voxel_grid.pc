@@ -1,0 +1,8 @@
+prefix=/home/lsy/catkin_ws/devel
+
+Name: voxel_grid
+Description: Description of voxel_grid
+Version: 1.16.4
+Cflags: -I/home/lsy/catkin_ws/src/4wd_wheeltec/src/navigation-melodic/voxel_grid/include
+Libs: -L${prefix}/lib -lvoxel_grid
+Requires: roscpp

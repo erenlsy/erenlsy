@@ -1,0 +1,16 @@
+[01m[K/home/lsy/catkin_ws/src/learning/robot_sim_lsy/src/velocity_keyboard_controller.cpp:[m[K In member function '[01m[Kvoid velcmdpub::stopRobot()[m[K':
+[01m[K/home/lsy/catkin_ws/src/learning/robot_sim_lsy/src/velocity_keyboard_controller.cpp:93:4:[m[K [01;31m[Kerror: [m[K'[01m[Kvel1[m[K' was not declared in this scope
+    [01;31m[Kvel1[m[K.data = 0;
+    [01;31m[K^~~~[m[K
+[01m[K/home/lsy/catkin_ws/src/learning/robot_sim_lsy/src/velocity_keyboard_controller.cpp:94:4:[m[K [01;31m[Kerror: [m[K'[01m[Kvel2[m[K' was not declared in this scope
+    [01;31m[Kvel2[m[K.data = 0;
+    [01;31m[K^~~~[m[K
+[01m[K/home/lsy/catkin_ws/src/learning/robot_sim_lsy/src/velocity_keyboard_controller.cpp:95:4:[m[K [01;31m[Kerror: [m[K'[01m[Kvel3[m[K' was not declared in this scope
+    [01;31m[Kvel3[m[K.data = 0;
+    [01;31m[K^~~~[m[K
+[01m[K/home/lsy/catkin_ws/src/learning/robot_sim_lsy/src/velocity_keyboard_controller.cpp:96:4:[m[K [01;31m[Kerror: [m[K'[01m[Kvel4[m[K' was not declared in this scope
+    [01;31m[Kvel4[m[K.data = 0;
+    [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/velocity_keyboard_controller.dir/src/velocity_keyboard_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/velocity_keyboard_controller.dir/all] Error 2
+make: *** [all] Error 2

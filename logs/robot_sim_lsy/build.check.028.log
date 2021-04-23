@@ -1,0 +1,35 @@
+-- Using CATKIN_DEVEL_PREFIX: /home/lsy/catkin_ws/devel
+-- Using CMAKE_PREFIX_PATH: /home/lsy/catkin_ws/devel;/opt/ros/melodic
+-- This workspace overlays: /home/lsy/catkin_ws/devel;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2")
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/lsy/catkin_ws/build/robot_sim_lsy/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17")
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+CMake Error at /home/lsy/catkin_ws/src/learning/robot_sim_lsy/CMakeLists.txt:25 (add_executable):
+  add_executable cannot create target "robot_keyboard" because another target
+  with the same name already exists.  The existing target is an executable
+  created in source directory
+  "/home/lsy/catkin_ws/src/learning/robot_sim_lsy".  See documentation for
+  policy CMP0002 for more details.
+
+
+CMake Error at /home/lsy/catkin_ws/src/learning/robot_sim_lsy/CMakeLists.txt:26 (target_link_libraries):
+  Cannot specify link libraries for target "velocity_keyboard_controller"
+  which is not built by this project.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/lsy/catkin_ws/build/robot_sim_lsy/CMakeFiles/CMakeOutput.log".
+See also "/home/lsy/catkin_ws/build/robot_sim_lsy/CMakeFiles/CMakeError.log".
+Makefile:1416: recipe for target 'cmake_check_build_system' failed
+make: *** [cmake_check_build_system] Error 1

@@ -1,0 +1,42 @@
+<launch>
+
+  <arg name="x" default="5.0" />
+  <arg name="y" default="1.0" />
+  <arg name="z" default="0.0" />
+  <arg name="yaw" default="-3.1" />
+
+ <!-- URDF and TF support -->
+  <param name="robot_description" textfile="$(find robot_sim_lsy)/urdf/4wd_test.urdf" />
+
+  <!-- Put a robot in gazebo, make it look pretty -->
+  <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model"
+  args="-x $(arg x) -y $(arg y) -z $(arg z) -Y $(arg yaw) -unpause -urdf -model robot -param robot_description" respawn="false" output="screen"/>
+
+<!-- Load joint controller configurations from YAML file to parameter server -->
+<rosparam file="$(find robot_sim_lsy)/param/4wd_test_control.yaml" command="load"/>
+
+<!-- load the controllers -->
+<node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
+  output="screen" ns="/4wd_test" args="left_front_wheel_controller
+                                       left_back_wheel_controller
+                                       right_front_wheel_controller
+                                       right_back_wheel_controller
+                                       joint_state_controller"/>
+
+<!-- convert joint states to TF transforms for rviz, etc -->
+
+<!--<node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">-->
+
+<node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"
+respawn="false" output="screen">
+<remap from="/joint_states" to="/4wd_test/joint_states" />
+</node>
+
+<node name="robot_keyboard" pkg="robot_sim_lsy" type="robot_keyboard">
+</node>
+
+<node name="velocity_keyboard_controller" pkg="robot_sim_lsy" type="velocity_keyboard_controller">
+</node>
+
+
+</launch>

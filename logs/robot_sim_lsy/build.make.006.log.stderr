@@ -1,0 +1,21 @@
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/lsy/catkin_ws/src/learning/robot_sim_lsy/scripts/pub_velocity_controller_command.cpp:1[m[K:
+[01m[K/home/lsy/catkin_ws/src/learning/robot_sim_lsy/scripts/pub_velocity_controller_command.cpp:[m[K In member function '[01m[Kvoid pubFloat64::pub()[m[K':
+[01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat '[01m[K%d[m[K' expects argument of type '[01m[Kint[m[K', but argument 8 has type '[01m[Kstd_msgs::Float64_<std::allocator<void> >::_data_type {aka double}[m[K' [[01;35m[K-Wformat=[m[K]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+                                                                                                                                                                                [01;35m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K'
+     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K'
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KROS_LOG_COND[m[K'
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KROS_LOG[m[K'
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/lsy/catkin_ws/src/learning/robot_sim_lsy/scripts/pub_velocity_controller_command.cpp:24:7:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KROS_INFO[m[K'
+       [01;36m[KROS_INFO[m[K("%d", msg.data);
+       [01;36m[K^~~~~~~~[m[K

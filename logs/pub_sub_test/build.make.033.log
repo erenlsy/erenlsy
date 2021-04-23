@@ -1,0 +1,28 @@
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target _catkin_empty_exported_target
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[ 50%] Built target pub_geometryPoseStamped
+[ 50%] Built target sub_geometryPoseStamped
+[ 75%] Built target pub_int8_class
+[35m[1mScanning dependencies of target sub_int8_class[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/sub_int8_class.dir/src/sub_int8_class.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/lsy/catkin_ws/devel/lib/pub_sub_test/sub_int8_class[0m
+[100%] Built target sub_int8_class
