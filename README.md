@@ -1,4 +1,2 @@
-<!--
-**erenlsy/erenlsy** is recording my process of learning ROS .
+erenlsy/learning-ros is recording my process of learning ROS.
 
--->
