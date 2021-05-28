@@ -4,10 +4,9 @@ Panels:
     Name: Displays
     Property Tree Widget:
       Expanded:
-        - /Axes1
-        - /Axes2
-        - /Axes3
-        - /Axes4
+        - /TF1/Frames1
+        - /TF1/Tree1
+        - /Marker1
       Splitter Ratio: 0.5
     Tree Height: 537
   - Class: rviz/Selection
@@ -73,7 +72,12 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        laser_link:
+        gps_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        imu_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -142,6 +146,66 @@ Visualization Manager:
       Radius: 0.009999999776482582
       Reference Frame: right_front_wheel_link
       Value: true
+    - Class: rviz/TF
+      Enabled: true
+      Frame Timeout: 15
+      Frames:
+        All Enabled: false
+        base_link:
+          Value: true
+        dummy_link:
+          Value: false
+        gps_link:
+          Value: true
+        imu_link:
+          Value: false
+        left_back_wheel_link:
+          Value: false
+        left_camera_link:
+          Value: false
+        left_front_wheel_link:
+          Value: false
+        right_back_wheel_link:
+          Value: false
+        right_camera_link:
+          Value: false
+        right_front_wheel_link:
+          Value: false
+      Marker Scale: 1
+      Name: TF
+      Show Arrows: true
+      Show Axes: true
+      Show Names: true
+      Tree:
+        base_link:
+          dummy_link:
+            {}
+          gps_link:
+            {}
+          imu_link:
+            {}
+          left_back_wheel_link:
+            {}
+          left_camera_link:
+            {}
+          left_front_wheel_link:
+            {}
+          right_back_wheel_link:
+            {}
+          right_camera_link:
+            {}
+          right_front_wheel_link:
+            {}
+      Update Interval: 0
+      Value: true
+    - Class: rviz/Marker
+      Enabled: true
+      Marker Topic: visualization_marker
+      Name: Marker
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -170,25 +234,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 1.3934848308563232
+      Distance: 3.03619122505188
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: -0.015712149441242218
-        Y: -0.13940741121768951
-        Z: 0.016430338844656944
+        X: -0.5515866279602051
+        Y: -0.2718999683856964
+        Z: -0.09416261315345764
       Focal Shape Fixed Size: false
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.09479600936174393
+      Pitch: 1.0197958946228027
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 2.763606548309326
+      Yaw: 2.588606357574463
     Saved: ~
 Window Geometry:
   Displays:
@@ -206,5 +270,5 @@ Window Geometry:
   Views:
     collapsed: true
   Width: 1373
-  X: 553
-  Y: 154
+  X: 535
+  Y: 67

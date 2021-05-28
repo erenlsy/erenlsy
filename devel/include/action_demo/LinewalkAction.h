@@ -102,16 +102,6 @@ namespace message_traits
 
 
 template <class ContainerAllocator>
-struct IsFixedSize< ::action_demo::LinewalkAction_<ContainerAllocator> >
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
-struct IsFixedSize< ::action_demo::LinewalkAction_<ContainerAllocator> const>
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
 struct IsMessage< ::action_demo::LinewalkAction_<ContainerAllocator> >
   : TrueType
   { };
@@ -119,6 +109,16 @@ struct IsMessage< ::action_demo::LinewalkAction_<ContainerAllocator> >
 template <class ContainerAllocator>
 struct IsMessage< ::action_demo::LinewalkAction_<ContainerAllocator> const>
   : TrueType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::action_demo::LinewalkAction_<ContainerAllocator> >
+  : FalseType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::action_demo::LinewalkAction_<ContainerAllocator> const>
+  : FalseType
   { };
 
 template <class ContainerAllocator>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.9.2, 2021-03-29T10:42:58. -->
+<!-- Written by QtCreator 4.9.2, 2021-05-28T10:55:50. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -57,6 +57,11 @@
   <valuemap type="QVariantMap">
    <valuelist type="QVariantList" key="ClangCodeModel.CustomCommandLineKey"/>
    <value type="bool" key="ClangCodeModel.UseGlobalConfig">true</value>
+   <value type="bool" key="ClangTools.BuildBeforeAnalysis">false</value>
+   <valuelist type="QVariantList" key="ClangTools.SelectedDirs"/>
+   <valuelist type="QVariantList" key="ClangTools.SelectedFiles"/>
+   <valuelist type="QVariantList" key="ClangTools.SuppressedDiagnostics"/>
+   <value type="bool" key="ClangTools.UseGlobalSettings">true</value>
   </valuemap>
  </data>
  <data>
@@ -73,16 +78,13 @@
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
-      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">CatkinTools Step</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">CatkinMake Step</value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
-      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ROSProjectManager.ROSCatkinToolsStep</value>
-      <value type="QString" key="ROSProjectManager.ROSCatkinToolsStep.ActiveProfile">default</value>
-      <value type="QString" key="ROSProjectManager.ROSCatkinToolsStep.CMakeArguments"></value>
-      <value type="QString" key="ROSProjectManager.ROSCatkinToolsStep.CatkinMakeArguments"></value>
-      <value type="QString" key="ROSProjectManager.ROSCatkinToolsStep.CatkinToolsArguments"></value>
-      <value type="QString" key="ROSProjectManager.ROSCatkinToolsStep.CatkinToolsWorkingDir">%{CurrentProject:Path}</value>
-      <value type="QString" key="ROSProjectManager.ROSCatkinToolsStep.MakeArguments"></value>
-      <value type="int" key="ROSProjectManager.ROSCatkinToolsStep.Target">0</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ROSProjectManager.ROSCatkinMakeStep</value>
+      <value type="QString" key="ROSProjectManager.ROSCatkinMakeStep.CMakeArguments"></value>
+      <value type="QString" key="ROSProjectManager.ROSCatkinMakeStep.CatkinMakeArguments"></value>
+      <value type="QString" key="ROSProjectManager.ROSCatkinMakeStep.MakeArguments"></value>
+      <value type="int" key="ROSProjectManager.ROSCatkinMakeStep.Target">0</value>
      </valuemap>
      <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Build</value>
@@ -92,16 +94,13 @@
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.1">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
-      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">CatkinTools Step</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">CatkinMake Step</value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
-      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ROSProjectManager.ROSCatkinToolsStep</value>
-      <value type="QString" key="ROSProjectManager.ROSCatkinToolsStep.ActiveProfile">default</value>
-      <value type="QString" key="ROSProjectManager.ROSCatkinToolsStep.CMakeArguments"></value>
-      <value type="QString" key="ROSProjectManager.ROSCatkinToolsStep.CatkinMakeArguments"></value>
-      <value type="QString" key="ROSProjectManager.ROSCatkinToolsStep.CatkinToolsArguments"></value>
-      <value type="QString" key="ROSProjectManager.ROSCatkinToolsStep.CatkinToolsWorkingDir">%{CurrentProject:Path}</value>
-      <value type="QString" key="ROSProjectManager.ROSCatkinToolsStep.MakeArguments"></value>
-      <value type="int" key="ROSProjectManager.ROSCatkinToolsStep.Target">3145780</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ROSProjectManager.ROSCatkinMakeStep</value>
+      <value type="QString" key="ROSProjectManager.ROSCatkinMakeStep.CMakeArguments"></value>
+      <value type="QString" key="ROSProjectManager.ROSCatkinMakeStep.CatkinMakeArguments"></value>
+      <value type="QString" key="ROSProjectManager.ROSCatkinMakeStep.MakeArguments"></value>
+      <value type="int" key="ROSProjectManager.ROSCatkinMakeStep.Target">0</value>
      </valuemap>
      <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Clean</value>
@@ -111,28 +110,45 @@
     <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">2</value>
     <value type="bool" key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment">false</value>
     <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges">
-     <value type="QString">CMAKE_PREFIX_PATH=/home/lsy/catkin_ws/devel:/opt/ros/melodic</value>
-     <value type="QString">LD_LIBRARY_PATH=/home/lsy/catkin_ws/devel/lib:/opt/ros/melodic/lib:/opt/ros/melodic/lib/x86_64-linux-gnu</value>
+     <value type="QString">CMAKE_PREFIX_PATH=/home/lsy/turtlebot_ws/devel:/home/lsy/catkin_ws/devel:/opt/ros/melodic</value>
+     <value type="QString">LD_LIBRARY_PATH=/home/lsy/turtlebot_ws/devel/lib:/home/lsy/catkin_ws/devel/lib:/opt/ros/melodic/lib:/opt/ros/melodic/lib/x86_64-linux-gnu</value>
      <value type="QString">PATH=/opt/ros/melodic/bin:/home/lsy/.local/bin:/sbin:/bin:/usr/bin:/usr/local/bin:/snap/bin</value>
-     <value type="QString">PKG_CONFIG_PATH=/home/lsy/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig</value>
+     <value type="QString">PKG_CONFIG_PATH=/home/lsy/turtlebot_ws/devel/lib/pkgconfig:/home/lsy/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig</value>
      <value type="QString">PWD=/home/lsy/catkin_ws</value>
-     <value type="QString">PYTHONPATH=/home/lsy/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages</value>
+     <value type="QString">PYTHONPATH=/home/lsy/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages</value>
      <value type="QString">ROSLISP_PACKAGE_DIRECTORIES=/home/lsy/catkin_ws/devel/share/common-lisp</value>
      <value type="QString">ROS_DISTRO=melodic</value>
      <value type="QString">ROS_ETC_DIR=/opt/ros/melodic/etc/ros</value>
      <value type="QString">ROS_MASTER_URI=http://localhost:11311</value>
-     <value type="QString">ROS_PACKAGE_PATH=/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/action_demo:/home/lsy/catkin_ws/src/4wd_wheeltec/src/ros_astra_camera:/home/lsy/catkin_ws/src/4wd_wheeltec/src/ros_astra_launch:/home/lsy/catkin_ws/src/4wd_wheeltec/src/realsense-ros-development/ddynamic_reconfigure-kinetic-devel:/home/lsy/catkin_ws/src/4wd_wheeltec/src/depthimage_to_laserscan-melodic-devel:/home/lsy/catkin_ws/src/4wd_wheeltec/src/face_tracker:/home/lsy/catkin_ws/src/4wd_wheeltec/src/navigation-melodic/fake_localization:/home/lsy/catkin_ws/src/4wd_wheeltec/src/ros_gesture_recognition:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_imu_attitude_to_tf:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_imu_tools:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_map_tools:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_compressed_map_transport:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_mapping:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_marker_drawing:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_geotiff:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_geotiff_plugins:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_map_server:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_slam:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_slam_launch:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_trajectory_server:/home/lsy/catkin_ws/src/4wd_wheeltec/src/kcf_track:/home/lsy/catkin_ws/src/learning/learn_rviz_tf:/home/lsy/catkin_ws/src/4wd_wheeltec/src/navigation-melodic/map_server:/home/lsy/catkin_ws/src/4wd_wheeltec/src/navigation-melodic/amcl:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/name_demo:/home/lsy/catkin_ws/src/4wd_wheeltec/src/navigation-melodic/navigation:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/openslam_gmapping:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/slam_gmapping/gmapping:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/orbslam2_demo:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/param_demo:/home/lsy/catkin_ws/src/learning/pub_sub_test:/home/lsy/catkin_ws/src/learning/read_param_test:/home/lsy/catkin_ws/src/4wd_wheeltec/src/realsense-ros-development/realsense2_camera:/home/lsy/catkin_ws/src/4wd_wheeltec/src/realsense-ros-development/realsense2_description:/home/lsy/catkin_ws/src/robot_localization_demo:/home/lsy/catkin_ws/src/4wd_wheeltec/src/robot_pose_ekf:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/robot_sim_demo:/home/lsy/catkin_ws/src/learning/robot_sim_lsy:/home/lsy/catkin_ws/src/learning/robot_urdf_lsy:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/ros_academy_for_beginners:/home/lsy/catkin_ws/src/4wd_wheeltec/src/ros_object_detection:/home/lsy/catkin_ws/src/learning/ros_tutorials_service:/home/lsy/catkin_ws/src/learning/ros_tutorials_topic:/home/lsy/catkin_ws/src/4wd_wheeltec/src/rplidar_ros:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/rtabmap_demo:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/service_demo:/home/lsy/catkin_ws/src/4wd_wheeltec/src/simple_follower:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/slam_gmapping/slam_gmapping:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/slam_sim_demo:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/tf_demo:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/tf_follower:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/topic_demo:/home/lsy/catkin_ws/src/4wd_wheeltec/src/turn_on_wheeltec_robot:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/urdf_demo:/home/lsy/catkin_ws/src/4wd_wheeltec/src/usb_cam:/home/lsy/catkin_ws/src/4wd_wheeltec/src/navigation-melodic/voxel_grid:/home/lsy/catkin_ws/src/4wd_wheeltec/src/navigation-melodic/costmap_2d:/home/lsy/catkin_ws/src/4wd_wheeltec/src/navigation-melodic/nav_core:/home/lsy/catkin_ws/src/4wd_wheeltec/src/navigation-melodic/base_local_planner:/home/lsy/catkin_ws/src/4wd_wheeltec/src/navigation-melodic/carrot_planner:/home/lsy/catkin_ws/src/4wd_wheeltec/src/navigation-melodic/clear_costmap_recovery:/home/lsy/catkin_ws/src/4wd_wheeltec/src/navigation-melodic/dwa_local_planner:/home/lsy/catkin_ws/src/4wd_wheeltec/src/navigation-melodic/move_slow_and_clear:/home/lsy/catkin_ws/src/4wd_wheeltec/src/navigation-melodic/navfn:/home/lsy/catkin_ws/src/4wd_wheeltec/src/navigation-melodic/global_planner:/home/lsy/catkin_ws/src/4wd_wheeltec/src/navigation-melodic/rotate_recovery:/home/lsy/catkin_ws/src/4wd_wheeltec/src/navigation-melodic/move_base:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/navigation_sim_demo:/home/lsy/catkin_ws/src/4wd_wheeltec/src/teb_local_planner-melodic-devel:/home/lsy/catkin_ws/src/4wd_wheeltec/src/web_video_server:/home/lsy/catkin_ws/src/4wd_wheeltec/src/wheeltec_robot_rc:/home/lsy/catkin_ws/src/4wd_wheeltec/src/wheeltec_robot_urdf:/opt/ros/melodic/share</value>
+     <value type="QString">ROS_PACKAGE_PATH=/home/lsy/turtlebot_ws/src:/home/lsy/catkin_ws/src:/opt/ros/melodic/share</value>
      <value type="QString">ROS_PYTHON_VERSION=2</value>
      <value type="QString">ROS_ROOT=/opt/ros/melodic/share/ros</value>
      <value type="QString">ROS_VERSION=1</value>
-     <value type="QString">SHLVL=281</value>
+     <value type="QString">SHLVL=445</value>
      <value type="QString">TERM=xterm</value>
+     <value type="QString">TURTLEBOT_3D_SENSOR=asus_xtion_pro</value>
+     <value type="QString">TURTLEBOT_BASE=kobuki</value>
+     <value type="QString">TURTLEBOT_BATTERY=/sys/class/power_supply/BAT0</value>
+     <value type="QString">TURTLEBOT_GAZEBO_MAP_FILE=/home/lsy/turtlebot_ws/src/turtlebot_simulator/turtlebot_gazebo/maps/playground.yaml</value>
+     <value type="QString">TURTLEBOT_GAZEBO_WORLD_FILE=/home/lsy/turtlebot_ws/src/turtlebot_simulator/turtlebot_gazebo/worlds/playground.world</value>
+     <value type="QString">TURTLEBOT_INTERACTIONS_LIST=[turtlebot_bringup/admin.interactions, turtlebot_bringup/documentation.interactions, turtlebot_bringup/pairing.interactions, turtlebot_bringup/visualisation.interactions]</value>
+     <value type="QString">TURTLEBOT_MAP_FILE=/home/lsy/turtlebot_ws/src/turtlebot_apps/turtlebot_navigation/maps/willow-2010-02-18-0.10.yaml</value>
+     <value type="QString">TURTLEBOT_NAME=turtlebot</value>
+     <value type="QString">TURTLEBOT_RAPP_PACKAGE_BLACKLIST=[]</value>
+     <value type="QString">TURTLEBOT_RAPP_PACKAGE_WHITELIST=[rocon_apps, turtlebot_rapps]</value>
+     <value type="QString">TURTLEBOT_SERIAL_PORT=/dev/kobuki</value>
+     <value type="QString">TURTLEBOT_SIMULATION=false</value>
+     <value type="QString">TURTLEBOT_STACKS=hexagons</value>
+     <value type="QString">TURTLEBOT_STAGE_MAP_FILE=/home/lsy/turtlebot_ws/src/turtlebot_simulator/turtlebot_stage/maps/maze.yaml</value>
+     <value type="QString">TURTLEBOT_STAGE_WORLD_FILE=/home/lsy/turtlebot_ws/src/turtlebot_simulator/turtlebot_stage/maps/stage/maze.world</value>
+     <value type="QString">TURTLEBOT_STDR_MAP_FILE=/home/lsy/turtlebot_ws/src/turtlebot_simulator/turtlebot_stdr/maps/sparse_obstacles.yaml</value>
+     <value type="QString">TURTLEBOT_TYPE=turtlebot</value>
      <value type="QString">_=/usr/bin/env</value>
     </valuelist>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Debug</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Debug</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ROSProjectManager.ROSBuildConfiguration</value>
-    <value type="int" key="ROSProjectManager.ROSBuildConfiguration.BuildSystem">1</value>
+    <value type="int" key="ROSProjectManager.ROSBuildConfiguration.BuildSystem">0</value>
     <value type="int" key="ROSProjectManager.ROSBuildConfiguration.CMakeBuildType">0</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.1">

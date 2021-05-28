@@ -102,16 +102,6 @@ namespace message_traits
 
 
 template <class ContainerAllocator>
-struct IsFixedSize< ::msgs_demo::AddTwoIntsActionFeedback_<ContainerAllocator> >
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
-struct IsFixedSize< ::msgs_demo::AddTwoIntsActionFeedback_<ContainerAllocator> const>
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
 struct IsMessage< ::msgs_demo::AddTwoIntsActionFeedback_<ContainerAllocator> >
   : TrueType
   { };
@@ -119,6 +109,16 @@ struct IsMessage< ::msgs_demo::AddTwoIntsActionFeedback_<ContainerAllocator> >
 template <class ContainerAllocator>
 struct IsMessage< ::msgs_demo::AddTwoIntsActionFeedback_<ContainerAllocator> const>
   : TrueType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::msgs_demo::AddTwoIntsActionFeedback_<ContainerAllocator> >
+  : FalseType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::msgs_demo::AddTwoIntsActionFeedback_<ContainerAllocator> const>
+  : FalseType
   { };
 
 template <class ContainerAllocator>

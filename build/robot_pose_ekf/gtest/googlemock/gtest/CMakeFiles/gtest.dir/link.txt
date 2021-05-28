@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/opt/ros/melodic/lib  -L/home/lsy/catkin_ws/build/robot_pose_ekf/gtest/googlemock/gtest/src -Wl,-rpath,/opt/ros/melodic/lib:/home/lsy/catkin_ws/build/robot_pose_ekf/gtest/googlemock/gtest/src -lpthread 

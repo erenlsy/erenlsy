@@ -32,14 +32,14 @@
 
 <link name="dummy_link">
 
-<inertial>
-  <origin xyz="0 0 0.08" rpy="0 0 0"/>
-  <mass value="100"/>
-  <inertia
-    ixx="20.0" ixy="0.0" ixz="0.0"
-    iyy="20.0" iyz="0.0"
-    izz="20.0"/>
-    </inertial>
+  <inertial>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <mass value="10"/>
+    <inertia
+      ixx="0.05" ixy="0.0" ixz="0.0"
+      iyy="0.16" iyz="0.0"
+      izz="0.17"/>
+  </inertial>
 
 </link>
 
@@ -64,37 +64,37 @@
 
 <link name="left_back_wheel_link">
 
-<collision>
-  <origin xyz="0 0 0" rpy="1.5707 0 0" />
-  <geometry>
-    <cylinder radius="0.06" length = "0.025"/>
-  </geometry>
-</collision>
+  <collision>
+    <origin xyz="0 0 0" rpy="1.5707 0 0" />
+    <geometry>
+      <cylinder radius="0.06" length = "0.025"/>
+    </geometry>
+  </collision>
 
-<visual>
-        <origin xyz="0 0 0" rpy="1.5707 0 0" />
-        <geometry>
-            <cylinder radius="0.06" length = "0.025"/>
-        </geometry>
-        <material name="blue">
-            <color rgba="0 0 1 0.9"/>
-        </material>
-    </visual>
+  <visual>
+    <origin xyz="0 0 0" rpy="1.5707 0 0" />
+     <geometry>
+       <cylinder radius="0.06" length = "0.025"/>
+     </geometry>
+     <material name="blue">
+       <color rgba="0 0 1 0.9"/>
+     </material>
+  </visual>
 
-    <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="0.1"/>
-      <inertia
-        ixx="0.1" ixy="0.0" ixz="0.0"
-        iyy="0.1" iyz="0.0"
-        izz="0.1"/>
-    </inertial>
+  <inertial>
+    <origin xyz="0 0 0" rpy="1.5707 0 0"/>
+    <mass value="0.5"/>
+    <inertia
+      ixx="0.000153" ixy="0.0" ixz="0.0"
+      iyy="0.000249" iyz="0.0"
+      izz="0.000153"/>
+  </inertial>
 </link>
 
 
 <gazebo reference="left_back_wheel_link">
-  <mu1>0.1</mu1>
-  <mu2>0.1</mu2>
+  <mu1>0.25</mu1>
+  <mu2>0.25</mu2>
   <kp>500000.0</kp>
   <kd>10.0</kd>
   <minDepth>0.001</minDepth>
@@ -111,37 +111,36 @@
 </joint>
 
 <link name="right_back_wheel_link">
+  <collision>
+    <origin xyz="0 0 0" rpy="1.5707 0 0" />
+    <geometry>
+      <cylinder radius="0.06" length = "0.025"/>
+    </geometry>
+  </collision>
 
-<collision>
-  <origin xyz="0 0 0" rpy="1.5707 0 0" />
-  <geometry>
-    <cylinder radius="0.06" length = "0.025"/>
-  </geometry>
-</collision>
-
-<visual>
-        <origin xyz="0 0 0" rpy="1.5707 0 0" />
-        <geometry>
-            <cylinder radius="0.06" length = "0.025"/>
-        </geometry>
-        <material name="blue">
-            <color rgba="0 0 1 0.9"/>
-        </material>
-    </visual>
+  <visual>
+    <origin xyz="0 0 0" rpy="1.5707 0 0" />
+    <geometry>
+       <cylinder radius="0.06" length = "0.025"/>
+    </geometry>
+    <material name="blue">
+       <color rgba="0 0 1 0.9"/>
+    </material>
+  </visual>
     <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="0.1"/>
+      <origin xyz="0 0 0" rpy="1.5707 0 0"/>
+      <mass value="0.5"/>
       <inertia
-        ixx="0.1" ixy="0.0" ixz="0.0"
-        iyy="0.1" iyz="0.0"
-        izz="0.1"/>
+        ixx="0.000153" ixy="0.0" ixz="0.0"
+        iyy="0.000249" iyz="0.0"
+        izz="0.000153"/>
     </inertial>
 </link>
 
 
 <gazebo reference="right_back_wheel_link">
-  <mu1>0.1</mu1>
-  <mu2>0.1</mu2>
+  <mu1>0.25</mu1>
+  <mu2>0.25</mu2>
   <kp>500000.0</kp>
   <kd>10.0</kd>
   <minDepth>0.001</minDepth>
@@ -159,12 +158,12 @@
 
 <link name="left_front_wheel_link">
 
-<collision>
-  <origin xyz="0 0 0" rpy="1.5707 0 0" />
-  <geometry>
-    <cylinder radius="0.06" length = "0.025"/>
-  </geometry>
-</collision>
+  <collision>
+    <origin xyz="0 0 0" rpy="1.5707 0 0" />
+    <geometry>
+      <cylinder radius="0.06" length = "0.025"/>
+    </geometry>
+  </collision>
 
     <visual>
         <origin xyz="0 0 0" rpy="1.5707 0 0" />
@@ -176,19 +175,19 @@
         </material>
     </visual>
     <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="0.1"/>
+      <origin xyz="0 0 0" rpy="1.5707 0 0"/>
+      <mass value="0.5"/>
       <inertia
-        ixx="0.1" ixy="0.0" ixz="0.0"
-        iyy="0.1" iyz="0.0"
-        izz="0.1"/>
+        ixx="0.000153" ixy="0.0" ixz="0.0"
+        iyy="0.000249" iyz="0.0"
+        izz="0.000153"/>
     </inertial>
 </link>
 
 
 <gazebo reference="left_front_wheel_link">
-  <mu1>0.1</mu1>
-  <mu2>0.1</mu2>
+  <mu1>0.25</mu1>
+  <mu2>0.25</mu2>
   <kp>500000.0</kp>
   <kd>10.0</kd>
   <minDepth>0.001</minDepth>
@@ -206,12 +205,12 @@
 
 <link name="right_front_wheel_link">
 
-<collision>
-  <origin xyz="0 0 0" rpy="1.5707 0 0" />
-  <geometry>
-    <cylinder radius="0.06" length = "0.025"/>
-  </geometry>
-</collision>
+  <collision>
+    <origin xyz="0 0 0" rpy="1.5707 0 0" />
+    <geometry>
+      <cylinder radius="0.06" length = "0.025"/>
+    </geometry>
+  </collision>
 
     <visual>
         <origin xyz="0 0 0" rpy="1.5707 0 0" />
@@ -223,19 +222,19 @@
         </material>
     </visual>
     <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="0.1"/>
+      <origin xyz="0 0 0" rpy="1.5707 0 0"/>
+      <mass value="0.5"/>
       <inertia
-        ixx="0.1" ixy="0.0" ixz="0.0"
-        iyy="0.1" iyz="0.0"
-        izz="0.1"/>
+        ixx="0.000153" ixy="0.0" ixz="0.0"
+        iyy="0.000249" iyz="0.0"
+        izz="0.000153"/>
     </inertial>
 </link>
 
 
 <gazebo reference="right_front_wheel_link">
-  <mu1>0.1</mu1>
-  <mu2>0.1</mu2>
+  <mu1>0.25</mu1>
+  <mu2>0.25</mu2>
   <kp>500000.0</kp>
   <kd>10.0</kd>
   <minDepth>0.001</minDepth>
@@ -243,6 +242,8 @@
   <fdir1>1 0 0</fdir1>
   <material>Gazebo/FlatBlack</material>
 </gazebo>
+
+<!-- camera -->
 
 <joint name="left_camera_joint" type="fixed">
     <origin xyz="0.17 -0.05 0.09" rpy="0 0 0"/>
@@ -265,9 +266,9 @@
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <mass value="0.1"/>
       <inertia
-        ixx="0.1" ixy="0.0" ixz="0.0"
-        iyy="0.1" iyz="0.0"
-        izz="0.1"/>
+        ixx="0.000001" ixy="0.0" ixz="0.0"
+        iyy="0.000001" iyz="0.0"
+        izz="0.000001"/>
     </inertial>
  </link>
 
@@ -312,7 +313,6 @@
 </gazebo>
 
 
-
 <joint name="right_camera_joint" type="fixed">
     <origin xyz="0.17 0.05 0.09" rpy="0 0 0"/>
     <parent link="base_link"/>
@@ -334,9 +334,9 @@
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <mass value="0.1"/>
       <inertia
-        ixx="0.1" ixy="0.0" ixz="0.0"
-        iyy="0.1" iyz="0.0"
-        izz="0.1"/>
+        ixx="0.000001" ixy="0.0" ixz="0.0"
+        iyy="0.000001" iyz="0.0"
+        izz="0.000001"/>
     </inertial>
 </link>
 
@@ -380,15 +380,16 @@
   </sensor>
 </gazebo>
 
+<!-- sensor -->
 
-<joint name="laser_joint" type="fixed">
+<!--<joint name="laser_joint" type="fixed">
     <origin xyz="0 0 0.105" rpy="0 0 0"/>
     <parent link="base_link"/>
     <child link="laser_link"/>
-</joint>
+</joint>-->
 
 
-<link name="laser_link">
+<!--<link name="laser_link">
     <visual>
         <origin xyz=" 0 0 0 " rpy="0 0 0" />
         <geometry>
@@ -404,69 +405,151 @@
         iyy="0.1" iyz="0.0"
         izz="0.1"/>
     </inertial>
-</link>
+</link>-->
 
-<gazebo reference="laser_link">
+<!--<gazebo reference="laser_link">-->
 <!-- Add a ray sensor, and give it a name -->
-<sensor type="ray" name="sensor">
+<!--<sensor type="ray" name="sensor">-->
 
   <!-- Position the ray sensor based on the specification. Also rotate
        it by 90 degrees around the X-axis so that the <horizontal> rays
        become vertical -->
-  <pose>0 0 -0.004645 1.5707 0 0</pose>
+<!--  <pose>0 0 -0.004645 1.5707 0 0</pose>-->
 
   <!-- Enable visualization to see the rays in the GUI -->
-  <visualize>true</visualize>
+<!--  <visualize>true</visualize>-->
 
   <!-- Set the update rate of the sensor -->
-  <update_rate>30</update_rate>
-  <ray>
+<!--  <update_rate>30</update_rate>-->
+<!--  <ray>-->
 
     <!-- The scan element contains the horizontal and vertical beams.
          We are leaving out the vertical beams for this tutorial. -->
-    <scan>
+<!--    <scan>-->
 
       <!-- The horizontal beams -->
-      <horizontal>
+<!--      <horizontal>-->
         <!-- The velodyne has 32 beams(samples) -->
-        <samples>32</samples>
+<!--        <samples>32</samples>-->
 
         <!-- Resolution is multiplied by samples to determine number of
              simulated beams vs interpolated beams. See:
              http://sdformat.org/spec?ver=1.6&elem=sensor#horizontal_resolution
              -->
-        <resolution>1</resolution>
+<!--        <resolution>1</resolution>-->
 
         <!-- Minimum angle in radians -->
-        <min_angle>-0.53529248</min_angle>
+<!--        <min_angle>-0.53529248</min_angle>-->
 
         <!-- Maximum angle in radians -->
-        <max_angle>0.18622663</max_angle>
+<!--        <max_angle>0.18622663</max_angle>
       </horizontal>
-    </scan>
+    </scan>-->
 
     <!-- Range defines characteristics of an individual beam -->
-    <range>
+<!--    <range>-->
 
       <!-- Minimum distance of the beam -->
-      <min>0.05</min>
+<!--      <min>0.05</min>-->
 
       <!-- Maximum distance of the beam -->
-      <max>70</max>
+<!--      <max>70</max>-->
 
       <!-- Linear resolution of the beam -->
-      <resolution>0.02</resolution>
+<!--      <resolution>0.02</resolution>
     </range>
   </ray>
 </sensor>
+</gazebo>-->
+
+<!-- imu sensor -->
+<joint name="imu_joint" type="fixed">
+    <origin xyz="0 0 0.08" rpy="0 0 0"/>
+    <parent link="base_link"/>
+    <child link="imu_link"/>
+</joint>
+
+
+<link name="imu_link">
+    <visual>
+        <origin xyz=" 0 0 0 " rpy="0 0 0" />
+        <geometry>
+            <cylinder length="0.01" radius="0.03"/>
+        </geometry>
+        <material name="black"/>
+    </visual>
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.1"/>
+      <inertia
+        ixx="0.000001" ixy="0.0" ixz="0.0"
+        iyy="0.000001" iyz="0.0"
+        izz="0.000001"/>
+    </inertial>
+</link>
+
+<gazebo reference="imu_link">
+  <gravity>true</gravity>
+  <sensor name="imu_sensor" type="imu">
+    <always_on>true</always_on>
+    <update_rate>50.0</update_rate>
+    <visualize>true</visualize>
+    <topic>imu</topic>
+    <plugin filename="libgazebo_ros_imu_sensor.so" name="imu_plugin">
+      <robotNamespace>/4wd_test</robotNamespace>
+      <topicName>imu</topicName>
+      <bodyName>imu_link</bodyName>
+      <updateRateHZ>50.0</updateRateHZ>
+      <gaussianNoise>0.0</gaussianNoise>
+      <xyzOffset>0 0 0</xyzOffset>
+      <rpyOffset>0 0 0</rpyOffset>
+      <frameName>imu_link</frameName>
+    </plugin>
+    <pose>0 0 0 0 0 0</pose>
+  </sensor>
 </gazebo>
 
+<!-- GPS -->
+
+<joint name="gps_joint" type="fixed">
+    <origin xyz="0 0 0.09" rpy="0 0 0"/>
+    <parent link="base_link"/>
+    <child link="gps_link"/>
+</joint>
+
+
+<link name="gps_link">
+    <visual>
+        <origin xyz=" 0 0 0 " rpy="0 0 0" />
+        <geometry>
+            <cylinder length="0.01" radius="0.03"/>
+        </geometry>
+        <material name="white"/>
+    </visual>
+</link>
+
+<gazebo>
+    <plugin name="gps" filename="libhector_gazebo_ros_gps.so">
+        <robotNamespace>/4wd_test</robotNamespace>
+        <alwaysOn>1</alwaysOn>
+        <updateRate>50.0</updateRate>
+        <bodyName>gps_link</bodyName>
+        <frameId>gps_link</frameId>
+        <referenceHeading>-90</referenceHeading>
+        <topicName>fix</topicName>
+        <velocityTopicName>fix_velocity</velocityTopicName>
+        <drift>0.0 0.0 0.0</drift>
+        <gaussianNoise>0.1 0.1 0.1</gaussianNoise>
+        <velocityDrift>0 0 0</velocityDrift>
+        <velocityGaussianNoise>0.1 0.1 0.1</velocityGaussianNoise>
+    </plugin>
+</gazebo>
 
 <!-- gazebo_ros_control and transmission -->
 <gazebo>
-<plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
-<robotNamespace>/4wd_test</robotNamespace>
-</plugin>
+    <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+        <robotNamespace>/4wd_test</robotNamespace>
+    </plugin>
 </gazebo>
 
 <!-- gazebo skid_steer drive-->

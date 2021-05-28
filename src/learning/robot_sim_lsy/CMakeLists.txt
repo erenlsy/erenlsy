@@ -7,6 +7,9 @@ find_package(catkin REQUIRED COMPONENTS
 	message_generation
 	controller_manager
 	gazebo_ros
+        nav_msgs
+        robot_localization
+        tf2
 )
 
 catkin_package(
@@ -24,3 +27,9 @@ target_link_libraries(pub_velocity_controller_command ${catkin_LIBRARIES})
 
 add_executable(velocity_keyboard_controller src/velocity_keyboard_controller.cpp)
 target_link_libraries(velocity_keyboard_controller ${catkin_LIBRARIES})
+
+add_executable(robot_path_lsy  src/robot_path_lsy.cpp)
+target_link_libraries(robot_path_lsy  ${catkin_LIBRARIES})
+
+add_executable(robot_marker_lsy  src/robot_marker_lsy.cpp)
+target_link_libraries(robot_marker_lsy  ${catkin_LIBRARIES})

@@ -94,16 +94,6 @@ namespace message_traits
 
 
 template <class ContainerAllocator>
-struct IsFixedSize< ::hector_nav_msgs::GetDistanceToObstacleResponse_<ContainerAllocator> >
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
-struct IsFixedSize< ::hector_nav_msgs::GetDistanceToObstacleResponse_<ContainerAllocator> const>
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
 struct IsMessage< ::hector_nav_msgs::GetDistanceToObstacleResponse_<ContainerAllocator> >
   : TrueType
   { };
@@ -111,6 +101,16 @@ struct IsMessage< ::hector_nav_msgs::GetDistanceToObstacleResponse_<ContainerAll
 template <class ContainerAllocator>
 struct IsMessage< ::hector_nav_msgs::GetDistanceToObstacleResponse_<ContainerAllocator> const>
   : TrueType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::hector_nav_msgs::GetDistanceToObstacleResponse_<ContainerAllocator> >
+  : FalseType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::hector_nav_msgs::GetDistanceToObstacleResponse_<ContainerAllocator> const>
+  : FalseType
   { };
 
 template <class ContainerAllocator>
