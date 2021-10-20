@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: cutting_arm
+    relative_path: urdf/cutting_arm.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/cutting_arm.srdf
+  CONFIG:
+    author_name: lsy
+    author_email: erenlsy@gmail.com
+    generated_timestamp: 1634629873

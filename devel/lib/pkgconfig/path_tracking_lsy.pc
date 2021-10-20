@@ -1,0 +1,8 @@
+prefix=/home/lsy/catkin_ws/devel
+
+Name: path_tracking_lsy
+Description: Description of path_tracking_lsy
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib -lpath_tracking_lsy
+Requires: rospy roscpp geometry_msgs nav_msgs

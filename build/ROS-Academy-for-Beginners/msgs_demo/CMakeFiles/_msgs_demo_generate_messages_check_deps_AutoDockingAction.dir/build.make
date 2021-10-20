@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/lsy/catkin_ws/build
 include ROS-Academy-for-Beginners/msgs_demo/CMakeFiles/_msgs_demo_generate_messages_check_deps_AutoDockingAction.dir/progress.make
 
 ROS-Academy-for-Beginners/msgs_demo/CMakeFiles/_msgs_demo_generate_messages_check_deps_AutoDockingAction:
-	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py msgs_demo /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AutoDockingAction.msg msgs_demo/AutoDockingActionFeedback:msgs_demo/AutoDockingActionGoal:msgs_demo/AutoDockingGoal:std_msgs/Header:msgs_demo/AutoDockingActionResult:actionlib_msgs/GoalID:msgs_demo/AutoDockingResult:actionlib_msgs/GoalStatus:msgs_demo/AutoDockingFeedback
+	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py msgs_demo /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AutoDockingAction.msg actionlib_msgs/GoalID:msgs_demo/AutoDockingActionResult:actionlib_msgs/GoalStatus:msgs_demo/AutoDockingResult:msgs_demo/AutoDockingFeedback:msgs_demo/AutoDockingGoal:std_msgs/Header:msgs_demo/AutoDockingActionGoal:msgs_demo/AutoDockingActionFeedback
 
 _msgs_demo_generate_messages_check_deps_AutoDockingAction: ROS-Academy-for-Beginners/msgs_demo/CMakeFiles/_msgs_demo_generate_messages_check_deps_AutoDockingAction
 _msgs_demo_generate_messages_check_deps_AutoDockingAction: ROS-Academy-for-Beginners/msgs_demo/CMakeFiles/_msgs_demo_generate_messages_check_deps_AutoDockingAction.dir/build.make

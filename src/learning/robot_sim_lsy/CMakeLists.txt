@@ -33,3 +33,6 @@ target_link_libraries(robot_path_lsy  ${catkin_LIBRARIES})
 
 add_executable(robot_marker_lsy  src/robot_marker_lsy.cpp)
 target_link_libraries(robot_marker_lsy  ${catkin_LIBRARIES})
+
+add_executable(turtle_teleop_joy src/turtle_teleop_joy.cpp)
+target_link_libraries(turtle_teleop_joy ${catkin_LIBRARIES})

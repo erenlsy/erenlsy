@@ -1,0 +1,8 @@
+prefix=/home/lsy/catkin_ws/devel
+
+Name: cutting_arm
+Description: Description of cutting_arm
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

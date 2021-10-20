@@ -56,6 +56,39 @@ CMAKE_BINARY_DIR = /home/lsy/catkin_ws/build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -67,6 +100,17 @@ install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
 
 # Special rule for the target install
 install: preinstall
@@ -80,16 +124,6 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -100,40 +134,6 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
-
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -168,19 +168,49 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-learning/robot_sim_lsy/CMakeFiles/robot_marker_lsy.dir/rule:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 learning/robot_sim_lsy/CMakeFiles/robot_marker_lsy.dir/rule
-.PHONY : learning/robot_sim_lsy/CMakeFiles/robot_marker_lsy.dir/rule
+learning/robot_sim_lsy/CMakeFiles/turtle_teleop_joy.dir/rule:
+	cd /home/lsy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 learning/robot_sim_lsy/CMakeFiles/turtle_teleop_joy.dir/rule
+.PHONY : learning/robot_sim_lsy/CMakeFiles/turtle_teleop_joy.dir/rule
 
 # Convenience name for target.
-robot_marker_lsy: learning/robot_sim_lsy/CMakeFiles/robot_marker_lsy.dir/rule
+turtle_teleop_joy: learning/robot_sim_lsy/CMakeFiles/turtle_teleop_joy.dir/rule
 
-.PHONY : robot_marker_lsy
+.PHONY : turtle_teleop_joy
 
 # fast build rule for target.
-robot_marker_lsy/fast:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f learning/robot_sim_lsy/CMakeFiles/robot_marker_lsy.dir/build.make learning/robot_sim_lsy/CMakeFiles/robot_marker_lsy.dir/build
-.PHONY : robot_marker_lsy/fast
+turtle_teleop_joy/fast:
+	cd /home/lsy/catkin_ws/build && $(MAKE) -f learning/robot_sim_lsy/CMakeFiles/turtle_teleop_joy.dir/build.make learning/robot_sim_lsy/CMakeFiles/turtle_teleop_joy.dir/build
+.PHONY : turtle_teleop_joy/fast
+
+# Convenience name for target.
+learning/robot_sim_lsy/CMakeFiles/robot_keyboard.dir/rule:
+	cd /home/lsy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 learning/robot_sim_lsy/CMakeFiles/robot_keyboard.dir/rule
+.PHONY : learning/robot_sim_lsy/CMakeFiles/robot_keyboard.dir/rule
+
+# Convenience name for target.
+robot_keyboard: learning/robot_sim_lsy/CMakeFiles/robot_keyboard.dir/rule
+
+.PHONY : robot_keyboard
+
+# fast build rule for target.
+robot_keyboard/fast:
+	cd /home/lsy/catkin_ws/build && $(MAKE) -f learning/robot_sim_lsy/CMakeFiles/robot_keyboard.dir/build.make learning/robot_sim_lsy/CMakeFiles/robot_keyboard.dir/build
+.PHONY : robot_keyboard/fast
+
+# Convenience name for target.
+learning/robot_sim_lsy/CMakeFiles/velocity_keyboard_controller.dir/rule:
+	cd /home/lsy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 learning/robot_sim_lsy/CMakeFiles/velocity_keyboard_controller.dir/rule
+.PHONY : learning/robot_sim_lsy/CMakeFiles/velocity_keyboard_controller.dir/rule
+
+# Convenience name for target.
+velocity_keyboard_controller: learning/robot_sim_lsy/CMakeFiles/velocity_keyboard_controller.dir/rule
+
+.PHONY : velocity_keyboard_controller
+
+# fast build rule for target.
+velocity_keyboard_controller/fast:
+	cd /home/lsy/catkin_ws/build && $(MAKE) -f learning/robot_sim_lsy/CMakeFiles/velocity_keyboard_controller.dir/build.make learning/robot_sim_lsy/CMakeFiles/velocity_keyboard_controller.dir/build
+.PHONY : velocity_keyboard_controller/fast
 
 # Convenience name for target.
 learning/robot_sim_lsy/CMakeFiles/pub_velocity_controller_command.dir/rule:
@@ -213,334 +243,19 @@ robot_path_lsy/fast:
 .PHONY : robot_path_lsy/fast
 
 # Convenience name for target.
-learning/robot_sim_lsy/CMakeFiles/uuid_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 learning/robot_sim_lsy/CMakeFiles/uuid_msgs_generate_messages_nodejs.dir/rule
-.PHONY : learning/robot_sim_lsy/CMakeFiles/uuid_msgs_generate_messages_nodejs.dir/rule
+learning/robot_sim_lsy/CMakeFiles/robot_marker_lsy.dir/rule:
+	cd /home/lsy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 learning/robot_sim_lsy/CMakeFiles/robot_marker_lsy.dir/rule
+.PHONY : learning/robot_sim_lsy/CMakeFiles/robot_marker_lsy.dir/rule
 
 # Convenience name for target.
-uuid_msgs_generate_messages_nodejs: learning/robot_sim_lsy/CMakeFiles/uuid_msgs_generate_messages_nodejs.dir/rule
+robot_marker_lsy: learning/robot_sim_lsy/CMakeFiles/robot_marker_lsy.dir/rule
 
-.PHONY : uuid_msgs_generate_messages_nodejs
+.PHONY : robot_marker_lsy
 
 # fast build rule for target.
-uuid_msgs_generate_messages_nodejs/fast:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f learning/robot_sim_lsy/CMakeFiles/uuid_msgs_generate_messages_nodejs.dir/build.make learning/robot_sim_lsy/CMakeFiles/uuid_msgs_generate_messages_nodejs.dir/build
-.PHONY : uuid_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-learning/robot_sim_lsy/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/rule:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 learning/robot_sim_lsy/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/rule
-.PHONY : learning/robot_sim_lsy/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-uuid_msgs_generate_messages_lisp: learning/robot_sim_lsy/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : uuid_msgs_generate_messages_lisp
-
-# fast build rule for target.
-uuid_msgs_generate_messages_lisp/fast:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f learning/robot_sim_lsy/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/build.make learning/robot_sim_lsy/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/build
-.PHONY : uuid_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-learning/robot_sim_lsy/CMakeFiles/velocity_keyboard_controller.dir/rule:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 learning/robot_sim_lsy/CMakeFiles/velocity_keyboard_controller.dir/rule
-.PHONY : learning/robot_sim_lsy/CMakeFiles/velocity_keyboard_controller.dir/rule
-
-# Convenience name for target.
-velocity_keyboard_controller: learning/robot_sim_lsy/CMakeFiles/velocity_keyboard_controller.dir/rule
-
-.PHONY : velocity_keyboard_controller
-
-# fast build rule for target.
-velocity_keyboard_controller/fast:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f learning/robot_sim_lsy/CMakeFiles/velocity_keyboard_controller.dir/build.make learning/robot_sim_lsy/CMakeFiles/velocity_keyboard_controller.dir/build
-.PHONY : velocity_keyboard_controller/fast
-
-# Convenience name for target.
-learning/robot_sim_lsy/CMakeFiles/robot_localization_generate_messages_py.dir/rule:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 learning/robot_sim_lsy/CMakeFiles/robot_localization_generate_messages_py.dir/rule
-.PHONY : learning/robot_sim_lsy/CMakeFiles/robot_localization_generate_messages_py.dir/rule
-
-# Convenience name for target.
-robot_localization_generate_messages_py: learning/robot_sim_lsy/CMakeFiles/robot_localization_generate_messages_py.dir/rule
-
-.PHONY : robot_localization_generate_messages_py
-
-# fast build rule for target.
-robot_localization_generate_messages_py/fast:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f learning/robot_sim_lsy/CMakeFiles/robot_localization_generate_messages_py.dir/build.make learning/robot_sim_lsy/CMakeFiles/robot_localization_generate_messages_py.dir/build
-.PHONY : robot_localization_generate_messages_py/fast
-
-# Convenience name for target.
-learning/robot_sim_lsy/CMakeFiles/robot_localization_generate_messages_nodejs.dir/rule:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 learning/robot_sim_lsy/CMakeFiles/robot_localization_generate_messages_nodejs.dir/rule
-.PHONY : learning/robot_sim_lsy/CMakeFiles/robot_localization_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-robot_localization_generate_messages_nodejs: learning/robot_sim_lsy/CMakeFiles/robot_localization_generate_messages_nodejs.dir/rule
-
-.PHONY : robot_localization_generate_messages_nodejs
-
-# fast build rule for target.
-robot_localization_generate_messages_nodejs/fast:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f learning/robot_sim_lsy/CMakeFiles/robot_localization_generate_messages_nodejs.dir/build.make learning/robot_sim_lsy/CMakeFiles/robot_localization_generate_messages_nodejs.dir/build
-.PHONY : robot_localization_generate_messages_nodejs/fast
-
-# Convenience name for target.
-learning/robot_sim_lsy/CMakeFiles/robot_localization_generate_messages_lisp.dir/rule:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 learning/robot_sim_lsy/CMakeFiles/robot_localization_generate_messages_lisp.dir/rule
-.PHONY : learning/robot_sim_lsy/CMakeFiles/robot_localization_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-robot_localization_generate_messages_lisp: learning/robot_sim_lsy/CMakeFiles/robot_localization_generate_messages_lisp.dir/rule
-
-.PHONY : robot_localization_generate_messages_lisp
-
-# fast build rule for target.
-robot_localization_generate_messages_lisp/fast:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f learning/robot_sim_lsy/CMakeFiles/robot_localization_generate_messages_lisp.dir/build.make learning/robot_sim_lsy/CMakeFiles/robot_localization_generate_messages_lisp.dir/build
-.PHONY : robot_localization_generate_messages_lisp/fast
-
-# Convenience name for target.
-learning/robot_sim_lsy/CMakeFiles/uuid_msgs_generate_messages_eus.dir/rule:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 learning/robot_sim_lsy/CMakeFiles/uuid_msgs_generate_messages_eus.dir/rule
-.PHONY : learning/robot_sim_lsy/CMakeFiles/uuid_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-uuid_msgs_generate_messages_eus: learning/robot_sim_lsy/CMakeFiles/uuid_msgs_generate_messages_eus.dir/rule
-
-.PHONY : uuid_msgs_generate_messages_eus
-
-# fast build rule for target.
-uuid_msgs_generate_messages_eus/fast:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f learning/robot_sim_lsy/CMakeFiles/uuid_msgs_generate_messages_eus.dir/build.make learning/robot_sim_lsy/CMakeFiles/uuid_msgs_generate_messages_eus.dir/build
-.PHONY : uuid_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-learning/robot_sim_lsy/CMakeFiles/geographic_msgs_generate_messages_eus.dir/rule:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 learning/robot_sim_lsy/CMakeFiles/geographic_msgs_generate_messages_eus.dir/rule
-.PHONY : learning/robot_sim_lsy/CMakeFiles/geographic_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-geographic_msgs_generate_messages_eus: learning/robot_sim_lsy/CMakeFiles/geographic_msgs_generate_messages_eus.dir/rule
-
-.PHONY : geographic_msgs_generate_messages_eus
-
-# fast build rule for target.
-geographic_msgs_generate_messages_eus/fast:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f learning/robot_sim_lsy/CMakeFiles/geographic_msgs_generate_messages_eus.dir/build.make learning/robot_sim_lsy/CMakeFiles/geographic_msgs_generate_messages_eus.dir/build
-.PHONY : geographic_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-learning/robot_sim_lsy/CMakeFiles/robot_localization_generate_messages_cpp.dir/rule:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 learning/robot_sim_lsy/CMakeFiles/robot_localization_generate_messages_cpp.dir/rule
-.PHONY : learning/robot_sim_lsy/CMakeFiles/robot_localization_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-robot_localization_generate_messages_cpp: learning/robot_sim_lsy/CMakeFiles/robot_localization_generate_messages_cpp.dir/rule
-
-.PHONY : robot_localization_generate_messages_cpp
-
-# fast build rule for target.
-robot_localization_generate_messages_cpp/fast:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f learning/robot_sim_lsy/CMakeFiles/robot_localization_generate_messages_cpp.dir/build.make learning/robot_sim_lsy/CMakeFiles/robot_localization_generate_messages_cpp.dir/build
-.PHONY : robot_localization_generate_messages_cpp/fast
-
-# Convenience name for target.
-learning/robot_sim_lsy/CMakeFiles/robot_localization_generate_messages_eus.dir/rule:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 learning/robot_sim_lsy/CMakeFiles/robot_localization_generate_messages_eus.dir/rule
-.PHONY : learning/robot_sim_lsy/CMakeFiles/robot_localization_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-robot_localization_generate_messages_eus: learning/robot_sim_lsy/CMakeFiles/robot_localization_generate_messages_eus.dir/rule
-
-.PHONY : robot_localization_generate_messages_eus
-
-# fast build rule for target.
-robot_localization_generate_messages_eus/fast:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f learning/robot_sim_lsy/CMakeFiles/robot_localization_generate_messages_eus.dir/build.make learning/robot_sim_lsy/CMakeFiles/robot_localization_generate_messages_eus.dir/build
-.PHONY : robot_localization_generate_messages_eus/fast
-
-# Convenience name for target.
-learning/robot_sim_lsy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 learning/robot_sim_lsy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
-.PHONY : learning/robot_sim_lsy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-diagnostic_msgs_generate_messages_cpp: learning/robot_sim_lsy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : diagnostic_msgs_generate_messages_cpp
-
-# fast build rule for target.
-diagnostic_msgs_generate_messages_cpp/fast:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f learning/robot_sim_lsy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make learning/robot_sim_lsy/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build
-.PHONY : diagnostic_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-learning/robot_sim_lsy/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/rule:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 learning/robot_sim_lsy/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/rule
-.PHONY : learning/robot_sim_lsy/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-diagnostic_msgs_generate_messages_eus: learning/robot_sim_lsy/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/rule
-
-.PHONY : diagnostic_msgs_generate_messages_eus
-
-# fast build rule for target.
-diagnostic_msgs_generate_messages_eus/fast:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f learning/robot_sim_lsy/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build.make learning/robot_sim_lsy/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build
-.PHONY : diagnostic_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-learning/robot_sim_lsy/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 learning/robot_sim_lsy/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/rule
-.PHONY : learning/robot_sim_lsy/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-diagnostic_msgs_generate_messages_nodejs: learning/robot_sim_lsy/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : diagnostic_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-diagnostic_msgs_generate_messages_nodejs/fast:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f learning/robot_sim_lsy/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/build.make learning/robot_sim_lsy/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/build
-.PHONY : diagnostic_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-learning/robot_sim_lsy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 learning/robot_sim_lsy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule
-.PHONY : learning/robot_sim_lsy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-diagnostic_msgs_generate_messages_py: learning/robot_sim_lsy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule
-
-.PHONY : diagnostic_msgs_generate_messages_py
-
-# fast build rule for target.
-diagnostic_msgs_generate_messages_py/fast:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f learning/robot_sim_lsy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make learning/robot_sim_lsy/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build
-.PHONY : diagnostic_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-learning/robot_sim_lsy/CMakeFiles/geographic_msgs_generate_messages_lisp.dir/rule:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 learning/robot_sim_lsy/CMakeFiles/geographic_msgs_generate_messages_lisp.dir/rule
-.PHONY : learning/robot_sim_lsy/CMakeFiles/geographic_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-geographic_msgs_generate_messages_lisp: learning/robot_sim_lsy/CMakeFiles/geographic_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : geographic_msgs_generate_messages_lisp
-
-# fast build rule for target.
-geographic_msgs_generate_messages_lisp/fast:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f learning/robot_sim_lsy/CMakeFiles/geographic_msgs_generate_messages_lisp.dir/build.make learning/robot_sim_lsy/CMakeFiles/geographic_msgs_generate_messages_lisp.dir/build
-.PHONY : geographic_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-learning/robot_sim_lsy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 learning/robot_sim_lsy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
-.PHONY : learning/robot_sim_lsy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-diagnostic_msgs_generate_messages_lisp: learning/robot_sim_lsy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : diagnostic_msgs_generate_messages_lisp
-
-# fast build rule for target.
-diagnostic_msgs_generate_messages_lisp/fast:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f learning/robot_sim_lsy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make learning/robot_sim_lsy/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build
-.PHONY : diagnostic_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-learning/robot_sim_lsy/CMakeFiles/geographic_msgs_generate_messages_cpp.dir/rule:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 learning/robot_sim_lsy/CMakeFiles/geographic_msgs_generate_messages_cpp.dir/rule
-.PHONY : learning/robot_sim_lsy/CMakeFiles/geographic_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-geographic_msgs_generate_messages_cpp: learning/robot_sim_lsy/CMakeFiles/geographic_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : geographic_msgs_generate_messages_cpp
-
-# fast build rule for target.
-geographic_msgs_generate_messages_cpp/fast:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f learning/robot_sim_lsy/CMakeFiles/geographic_msgs_generate_messages_cpp.dir/build.make learning/robot_sim_lsy/CMakeFiles/geographic_msgs_generate_messages_cpp.dir/build
-.PHONY : geographic_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-learning/robot_sim_lsy/CMakeFiles/geographic_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 learning/robot_sim_lsy/CMakeFiles/geographic_msgs_generate_messages_nodejs.dir/rule
-.PHONY : learning/robot_sim_lsy/CMakeFiles/geographic_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-geographic_msgs_generate_messages_nodejs: learning/robot_sim_lsy/CMakeFiles/geographic_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : geographic_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-geographic_msgs_generate_messages_nodejs/fast:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f learning/robot_sim_lsy/CMakeFiles/geographic_msgs_generate_messages_nodejs.dir/build.make learning/robot_sim_lsy/CMakeFiles/geographic_msgs_generate_messages_nodejs.dir/build
-.PHONY : geographic_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-learning/robot_sim_lsy/CMakeFiles/robot_keyboard.dir/rule:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 learning/robot_sim_lsy/CMakeFiles/robot_keyboard.dir/rule
-.PHONY : learning/robot_sim_lsy/CMakeFiles/robot_keyboard.dir/rule
-
-# Convenience name for target.
-robot_keyboard: learning/robot_sim_lsy/CMakeFiles/robot_keyboard.dir/rule
-
-.PHONY : robot_keyboard
-
-# fast build rule for target.
-robot_keyboard/fast:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f learning/robot_sim_lsy/CMakeFiles/robot_keyboard.dir/build.make learning/robot_sim_lsy/CMakeFiles/robot_keyboard.dir/build
-.PHONY : robot_keyboard/fast
-
-# Convenience name for target.
-learning/robot_sim_lsy/CMakeFiles/uuid_msgs_generate_messages_py.dir/rule:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 learning/robot_sim_lsy/CMakeFiles/uuid_msgs_generate_messages_py.dir/rule
-.PHONY : learning/robot_sim_lsy/CMakeFiles/uuid_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-uuid_msgs_generate_messages_py: learning/robot_sim_lsy/CMakeFiles/uuid_msgs_generate_messages_py.dir/rule
-
-.PHONY : uuid_msgs_generate_messages_py
-
-# fast build rule for target.
-uuid_msgs_generate_messages_py/fast:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f learning/robot_sim_lsy/CMakeFiles/uuid_msgs_generate_messages_py.dir/build.make learning/robot_sim_lsy/CMakeFiles/uuid_msgs_generate_messages_py.dir/build
-.PHONY : uuid_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-learning/robot_sim_lsy/CMakeFiles/geographic_msgs_generate_messages_py.dir/rule:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 learning/robot_sim_lsy/CMakeFiles/geographic_msgs_generate_messages_py.dir/rule
-.PHONY : learning/robot_sim_lsy/CMakeFiles/geographic_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-geographic_msgs_generate_messages_py: learning/robot_sim_lsy/CMakeFiles/geographic_msgs_generate_messages_py.dir/rule
-
-.PHONY : geographic_msgs_generate_messages_py
-
-# fast build rule for target.
-geographic_msgs_generate_messages_py/fast:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f learning/robot_sim_lsy/CMakeFiles/geographic_msgs_generate_messages_py.dir/build.make learning/robot_sim_lsy/CMakeFiles/geographic_msgs_generate_messages_py.dir/build
-.PHONY : geographic_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-learning/robot_sim_lsy/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/rule:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 learning/robot_sim_lsy/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/rule
-.PHONY : learning/robot_sim_lsy/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-uuid_msgs_generate_messages_cpp: learning/robot_sim_lsy/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : uuid_msgs_generate_messages_cpp
-
-# fast build rule for target.
-uuid_msgs_generate_messages_cpp/fast:
-	cd /home/lsy/catkin_ws/build && $(MAKE) -f learning/robot_sim_lsy/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/build.make learning/robot_sim_lsy/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/build
-.PHONY : uuid_msgs_generate_messages_cpp/fast
+robot_marker_lsy/fast:
+	cd /home/lsy/catkin_ws/build && $(MAKE) -f learning/robot_sim_lsy/CMakeFiles/robot_marker_lsy.dir/build.make learning/robot_sim_lsy/CMakeFiles/robot_marker_lsy.dir/build
+.PHONY : robot_marker_lsy/fast
 
 src/pub_velocity_controller_command.o: src/pub_velocity_controller_command.cpp.o
 
@@ -650,6 +365,33 @@ src/robot_path_lsy.cpp.s:
 	cd /home/lsy/catkin_ws/build && $(MAKE) -f learning/robot_sim_lsy/CMakeFiles/robot_path_lsy.dir/build.make learning/robot_sim_lsy/CMakeFiles/robot_path_lsy.dir/src/robot_path_lsy.cpp.s
 .PHONY : src/robot_path_lsy.cpp.s
 
+src/turtle_teleop_joy.o: src/turtle_teleop_joy.cpp.o
+
+.PHONY : src/turtle_teleop_joy.o
+
+# target to build an object file
+src/turtle_teleop_joy.cpp.o:
+	cd /home/lsy/catkin_ws/build && $(MAKE) -f learning/robot_sim_lsy/CMakeFiles/turtle_teleop_joy.dir/build.make learning/robot_sim_lsy/CMakeFiles/turtle_teleop_joy.dir/src/turtle_teleop_joy.cpp.o
+.PHONY : src/turtle_teleop_joy.cpp.o
+
+src/turtle_teleop_joy.i: src/turtle_teleop_joy.cpp.i
+
+.PHONY : src/turtle_teleop_joy.i
+
+# target to preprocess a source file
+src/turtle_teleop_joy.cpp.i:
+	cd /home/lsy/catkin_ws/build && $(MAKE) -f learning/robot_sim_lsy/CMakeFiles/turtle_teleop_joy.dir/build.make learning/robot_sim_lsy/CMakeFiles/turtle_teleop_joy.dir/src/turtle_teleop_joy.cpp.i
+.PHONY : src/turtle_teleop_joy.cpp.i
+
+src/turtle_teleop_joy.s: src/turtle_teleop_joy.cpp.s
+
+.PHONY : src/turtle_teleop_joy.s
+
+# target to generate assembly for a file
+src/turtle_teleop_joy.cpp.s:
+	cd /home/lsy/catkin_ws/build && $(MAKE) -f learning/robot_sim_lsy/CMakeFiles/turtle_teleop_joy.dir/build.make learning/robot_sim_lsy/CMakeFiles/turtle_teleop_joy.dir/src/turtle_teleop_joy.cpp.s
+.PHONY : src/turtle_teleop_joy.cpp.s
+
 src/velocity_keyboard_controller.o: src/velocity_keyboard_controller.cpp.o
 
 .PHONY : src/velocity_keyboard_controller.o
@@ -683,38 +425,19 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/local"
-	@echo "... install"
+	@echo "... install/strip"
 	@echo "... list_install_components"
-	@echo "... edit_cache"
-	@echo "... robot_marker_lsy"
+	@echo "... rebuild_cache"
+	@echo "... install/local"
 	@echo "... test"
+	@echo "... turtle_teleop_joy"
+	@echo "... install"
+	@echo "... robot_keyboard"
+	@echo "... velocity_keyboard_controller"
 	@echo "... pub_velocity_controller_command"
 	@echo "... robot_path_lsy"
-	@echo "... uuid_msgs_generate_messages_nodejs"
-	@echo "... uuid_msgs_generate_messages_lisp"
-	@echo "... velocity_keyboard_controller"
-	@echo "... robot_localization_generate_messages_py"
-	@echo "... robot_localization_generate_messages_nodejs"
-	@echo "... robot_localization_generate_messages_lisp"
-	@echo "... install/strip"
-	@echo "... uuid_msgs_generate_messages_eus"
-	@echo "... geographic_msgs_generate_messages_eus"
-	@echo "... robot_localization_generate_messages_cpp"
-	@echo "... robot_localization_generate_messages_eus"
-	@echo "... diagnostic_msgs_generate_messages_cpp"
-	@echo "... diagnostic_msgs_generate_messages_eus"
-	@echo "... diagnostic_msgs_generate_messages_nodejs"
-	@echo "... diagnostic_msgs_generate_messages_py"
-	@echo "... geographic_msgs_generate_messages_lisp"
-	@echo "... diagnostic_msgs_generate_messages_lisp"
-	@echo "... geographic_msgs_generate_messages_cpp"
-	@echo "... geographic_msgs_generate_messages_nodejs"
-	@echo "... rebuild_cache"
-	@echo "... robot_keyboard"
-	@echo "... uuid_msgs_generate_messages_py"
-	@echo "... geographic_msgs_generate_messages_py"
-	@echo "... uuid_msgs_generate_messages_cpp"
+	@echo "... edit_cache"
+	@echo "... robot_marker_lsy"
 	@echo "... src/pub_velocity_controller_command.o"
 	@echo "... src/pub_velocity_controller_command.i"
 	@echo "... src/pub_velocity_controller_command.s"
@@ -727,6 +450,9 @@ help:
 	@echo "... src/robot_path_lsy.o"
 	@echo "... src/robot_path_lsy.i"
 	@echo "... src/robot_path_lsy.s"
+	@echo "... src/turtle_teleop_joy.o"
+	@echo "... src/turtle_teleop_joy.i"
+	@echo "... src/turtle_teleop_joy.s"
 	@echo "... src/velocity_keyboard_controller.o"
 	@echo "... src/velocity_keyboard_controller.i"
 	@echo "... src/velocity_keyboard_controller.s"

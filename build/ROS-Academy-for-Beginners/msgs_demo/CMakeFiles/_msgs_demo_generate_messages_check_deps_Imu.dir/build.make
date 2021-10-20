@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/lsy/catkin_ws/build
 include ROS-Academy-for-Beginners/msgs_demo/CMakeFiles/_msgs_demo_generate_messages_check_deps_Imu.dir/progress.make
 
 ROS-Academy-for-Beginners/msgs_demo/CMakeFiles/_msgs_demo_generate_messages_check_deps_Imu:
-	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py msgs_demo /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/Imu.msg msgs_demo/Quaternion:std_msgs/Header:msgs_demo/Vector3
+	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py msgs_demo /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/Imu.msg std_msgs/Header:msgs_demo/Quaternion:msgs_demo/Vector3
 
 _msgs_demo_generate_messages_check_deps_Imu: ROS-Academy-for-Beginners/msgs_demo/CMakeFiles/_msgs_demo_generate_messages_check_deps_Imu
 _msgs_demo_generate_messages_check_deps_Imu: ROS-Academy-for-Beginners/msgs_demo/CMakeFiles/_msgs_demo_generate_messages_check_deps_Imu.dir/build.make

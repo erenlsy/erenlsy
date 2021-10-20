@@ -1,0 +1,8 @@
+prefix=/home/lsy/catkin_ws/install
+
+Name: localization_4wd
+Description: Description of localization_4wd
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib -llocalization_4wd
+Requires: nav_msgs robot_localization roscpp rospy sensor_msgs std_msgs visualization_msgs

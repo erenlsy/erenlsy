@@ -120,8 +120,8 @@ ROS-Academy-for-Beginners/msgs_demo/CMakeFiles/msgs_demo_generate_messages_nodej
 
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/Imu.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/Imu.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/Imu.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/Imu.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/Quaternion.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/Imu.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/Imu.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/Quaternion.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/Imu.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Javascript code from msgs_demo/Imu.msg"
 	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/Imu.msg -Imsgs_demo:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg -Imsgs_demo:/home/lsy/catkin_ws/devel/share/msgs_demo/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p msgs_demo -o /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg
@@ -134,14 +134,14 @@ ROS-Academy-for-Beginners/msgs_demo/CMakeFiles/msgs_demo_generate_messages_nodej
 
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/Odometry.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/Odometry.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/Odometry.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/Odometry.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/Quaternion.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/Odometry.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/Point.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/Odometry.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/Odometry.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/TwistWithCovariance.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/Odometry.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/PoseWithCovariance.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/Odometry.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/Vector3.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/Odometry.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/TwistWithCovariance.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/Odometry.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/Point.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/Odometry.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/Quaternion.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/Odometry.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/Odometry.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/Pose.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/Odometry.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/Twist.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/Odometry.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from msgs_demo/Odometry.msg"
 	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/Odometry.msg -Imsgs_demo:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg -Imsgs_demo:/home/lsy/catkin_ws/devel/share/msgs_demo/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p msgs_demo -o /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg
 
@@ -159,18 +159,18 @@ ROS-Academy-for-Beginners/msgs_demo/CMakeFiles/msgs_demo_generate_messages_nodej
 
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/PoseStamped.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/PoseStamped.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/PoseStamped.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/PoseStamped.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/Point.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/PoseStamped.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/Pose.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/PoseStamped.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/Quaternion.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/PoseStamped.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/PoseStamped.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/Pose.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/PoseStamped.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/Point.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/PoseStamped.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/Quaternion.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Javascript code from msgs_demo/PoseStamped.msg"
 	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/PoseStamped.msg -Imsgs_demo:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg -Imsgs_demo:/home/lsy/catkin_ws/devel/share/msgs_demo/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p msgs_demo -o /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg
 
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/PoseWithCovariance.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/PoseWithCovariance.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/PoseWithCovariance.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/PoseWithCovariance.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/Point.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/PoseWithCovariance.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/Quaternion.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/PoseWithCovariance.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/Pose.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/PoseWithCovariance.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/Quaternion.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Javascript code from msgs_demo/PoseWithCovariance.msg"
 	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/PoseWithCovariance.msg -Imsgs_demo:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg -Imsgs_demo:/home/lsy/catkin_ws/devel/share/msgs_demo/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p msgs_demo -o /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg
 
@@ -193,8 +193,8 @@ ROS-Academy-for-Beginners/msgs_demo/CMakeFiles/msgs_demo_generate_messages_nodej
 
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/TwistWithCovariance.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/TwistWithCovariance.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/TwistWithCovariance.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/TwistWithCovariance.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/Vector3.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/TwistWithCovariance.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/Twist.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/TwistWithCovariance.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating Javascript code from msgs_demo/TwistWithCovariance.msg"
 	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/TwistWithCovariance.msg -Imsgs_demo:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg -Imsgs_demo:/home/lsy/catkin_ws/devel/share/msgs_demo/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p msgs_demo -o /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg
 
@@ -205,41 +205,41 @@ ROS-Academy-for-Beginners/msgs_demo/CMakeFiles/msgs_demo_generate_messages_nodej
 
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingAction.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AutoDockingAction.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AutoDockingActionFeedback.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AutoDockingActionGoal.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingAction.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AutoDockingActionResult.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingAction.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AutoDockingResult.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AutoDockingFeedback.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AutoDockingGoal.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingAction.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AutoDockingActionResult.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingAction.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AutoDockingResult.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingAction.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AutoDockingFeedback.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AutoDockingActionGoal.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AutoDockingActionFeedback.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Javascript code from msgs_demo/AutoDockingAction.msg"
 	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AutoDockingAction.msg -Imsgs_demo:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg -Imsgs_demo:/home/lsy/catkin_ws/devel/share/msgs_demo/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p msgs_demo -o /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg
 
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingActionGoal.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingActionGoal.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AutoDockingActionGoal.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingActionGoal.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AutoDockingGoal.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingActionGoal.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingActionGoal.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingActionGoal.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingActionGoal.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AutoDockingGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Javascript code from msgs_demo/AutoDockingActionGoal.msg"
 	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AutoDockingActionGoal.msg -Imsgs_demo:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg -Imsgs_demo:/home/lsy/catkin_ws/devel/share/msgs_demo/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p msgs_demo -o /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg
 
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingActionResult.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingActionResult.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AutoDockingActionResult.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingActionResult.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AutoDockingResult.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingActionResult.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingActionResult.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingActionResult.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingActionResult.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating Javascript code from msgs_demo/AutoDockingActionResult.msg"
 	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AutoDockingActionResult.msg -Imsgs_demo:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg -Imsgs_demo:/home/lsy/catkin_ws/devel/share/msgs_demo/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p msgs_demo -o /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg
 
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingActionFeedback.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingActionFeedback.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AutoDockingActionFeedback.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingActionFeedback.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingActionFeedback.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingActionFeedback.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingActionFeedback.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AutoDockingFeedback.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingActionFeedback.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingActionFeedback.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AutoDockingActionFeedback.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating Javascript code from msgs_demo/AutoDockingActionFeedback.msg"
 	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AutoDockingActionFeedback.msg -Imsgs_demo:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg -Imsgs_demo:/home/lsy/catkin_ws/devel/share/msgs_demo/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p msgs_demo -o /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg
 
@@ -260,39 +260,39 @@ ROS-Academy-for-Beginners/msgs_demo/CMakeFiles/msgs_demo_generate_messages_nodej
 
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsAction.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AddTwoIntsAction.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AddTwoIntsActionResult.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsAction.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsAction.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AddTwoIntsActionFeedback.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AddTwoIntsActionGoal.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AddTwoIntsResult.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AddTwoIntsFeedback.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsAction.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AddTwoIntsGoal.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AddTwoIntsResult.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AddTwoIntsActionFeedback.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AddTwoIntsFeedback.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsAction.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AddTwoIntsActionGoal.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AddTwoIntsActionResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating Javascript code from msgs_demo/AddTwoIntsAction.msg"
 	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AddTwoIntsAction.msg -Imsgs_demo:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg -Imsgs_demo:/home/lsy/catkin_ws/devel/share/msgs_demo/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p msgs_demo -o /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg
 
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsActionGoal.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsActionGoal.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AddTwoIntsActionGoal.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsActionGoal.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AddTwoIntsGoal.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsActionGoal.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsActionGoal.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsActionGoal.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsActionGoal.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AddTwoIntsGoal.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating Javascript code from msgs_demo/AddTwoIntsActionGoal.msg"
 	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AddTwoIntsActionGoal.msg -Imsgs_demo:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg -Imsgs_demo:/home/lsy/catkin_ws/devel/share/msgs_demo/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p msgs_demo -o /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg
 
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsActionResult.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsActionResult.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AddTwoIntsActionResult.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsActionResult.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AddTwoIntsResult.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsActionResult.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsActionResult.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsActionResult.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsActionResult.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsActionResult.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AddTwoIntsResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating Javascript code from msgs_demo/AddTwoIntsActionResult.msg"
 	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AddTwoIntsActionResult.msg -Imsgs_demo:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg -Imsgs_demo:/home/lsy/catkin_ws/devel/share/msgs_demo/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p msgs_demo -o /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg
 
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsActionFeedback.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsActionFeedback.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AddTwoIntsActionFeedback.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsActionFeedback.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsActionFeedback.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsActionFeedback.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsActionFeedback.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/AddTwoIntsActionFeedback.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/AddTwoIntsFeedback.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating Javascript code from msgs_demo/AddTwoIntsActionFeedback.msg"
@@ -315,41 +315,41 @@ ROS-Academy-for-Beginners/msgs_demo/CMakeFiles/msgs_demo_generate_messages_nodej
 
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapAction.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/GetMapAction.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/GetMapResult.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/GetMapActionFeedback.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapAction.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/GetMapGoal.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapAction.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/GetMapFeedback.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapAction.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapAction.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapAction.js: /opt/ros/melodic/share/nav_msgs/msg/MapMetaData.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapAction.js: /opt/ros/melodic/share/nav_msgs/msg/OccupancyGrid.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/GetMapActionResult.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapAction.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapAction.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapAction.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/GetMapActionGoal.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/GetMapGoal.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapAction.js: /opt/ros/melodic/share/nav_msgs/msg/MapMetaData.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapAction.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapAction.js: /opt/ros/melodic/share/nav_msgs/msg/OccupancyGrid.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapAction.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapAction.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/GetMapResult.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapAction.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/GetMapActionResult.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/GetMapActionFeedback.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating Javascript code from msgs_demo/GetMapAction.msg"
 	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lsy/catkin_ws/devel/share/msgs_demo/msg/GetMapAction.msg -Imsgs_demo:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg -Imsgs_demo:/home/lsy/catkin_ws/devel/share/msgs_demo/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p msgs_demo -o /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg
 
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapActionGoal.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapActionGoal.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/GetMapActionGoal.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapActionGoal.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapActionGoal.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapActionGoal.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/GetMapGoal.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapActionGoal.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating Javascript code from msgs_demo/GetMapActionGoal.msg"
 	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lsy/catkin_ws/devel/share/msgs_demo/msg/GetMapActionGoal.msg -Imsgs_demo:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg -Imsgs_demo:/home/lsy/catkin_ws/devel/share/msgs_demo/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p msgs_demo -o /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg
 
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapActionResult.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapActionResult.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/GetMapActionResult.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapActionResult.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/GetMapResult.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapActionResult.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapActionResult.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapActionResult.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapActionResult.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapActionResult.js: /opt/ros/melodic/share/nav_msgs/msg/MapMetaData.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapActionResult.js: /opt/ros/melodic/share/nav_msgs/msg/OccupancyGrid.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapActionResult.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapActionResult.js: /opt/ros/melodic/share/nav_msgs/msg/MapMetaData.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapActionResult.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapActionResult.js: /opt/ros/melodic/share/nav_msgs/msg/OccupancyGrid.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapActionResult.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapActionResult.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/GetMapResult.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapActionResult.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapActionResult.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating Javascript code from msgs_demo/GetMapActionResult.msg"
 	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lsy/catkin_ws/devel/share/msgs_demo/msg/GetMapActionResult.msg -Imsgs_demo:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg -Imsgs_demo:/home/lsy/catkin_ws/devel/share/msgs_demo/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p msgs_demo -o /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg
@@ -357,8 +357,8 @@ ROS-Academy-for-Beginners/msgs_demo/CMakeFiles/msgs_demo_generate_messages_nodej
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapActionFeedback.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapActionFeedback.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/GetMapActionFeedback.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapActionFeedback.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/GetMapFeedback.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapActionFeedback.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapActionFeedback.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapActionFeedback.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapActionFeedback.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating Javascript code from msgs_demo/GetMapActionFeedback.msg"
 	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lsy/catkin_ws/devel/share/msgs_demo/msg/GetMapActionFeedback.msg -Imsgs_demo:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg -Imsgs_demo:/home/lsy/catkin_ws/devel/share/msgs_demo/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p msgs_demo -o /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg
@@ -370,11 +370,11 @@ ROS-Academy-for-Beginners/msgs_demo/CMakeFiles/msgs_demo_generate_messages_nodej
 
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapResult.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapResult.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/GetMapResult.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapResult.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapResult.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapResult.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapResult.js: /opt/ros/melodic/share/nav_msgs/msg/MapMetaData.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapResult.js: /opt/ros/melodic/share/nav_msgs/msg/OccupancyGrid.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapResult.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapResult.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapResult.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/GetMapResult.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating Javascript code from msgs_demo/GetMapResult.msg"
 	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lsy/catkin_ws/devel/share/msgs_demo/msg/GetMapResult.msg -Imsgs_demo:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg -Imsgs_demo:/home/lsy/catkin_ws/devel/share/msgs_demo/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p msgs_demo -o /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg
@@ -387,61 +387,61 @@ ROS-Academy-for-Beginners/msgs_demo/CMakeFiles/msgs_demo_generate_messages_nodej
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseAction.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/MoveBaseAction.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/MoveBaseActionResult.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseAction.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/MoveBaseFeedback.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseAction.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseAction.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/MoveBaseGoal.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseAction.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/MoveBaseActionGoal.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseAction.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/MoveBaseActionFeedback.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseAction.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/MoveBaseGoal.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseAction.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseAction.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/MoveBaseFeedback.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/MoveBaseResult.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseAction.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseAction.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/MoveBaseActionGoal.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseAction.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/MoveBaseResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating Javascript code from msgs_demo/MoveBaseAction.msg"
 	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lsy/catkin_ws/devel/share/msgs_demo/msg/MoveBaseAction.msg -Imsgs_demo:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg -Imsgs_demo:/home/lsy/catkin_ws/devel/share/msgs_demo/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p msgs_demo -o /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg
 
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionGoal.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionGoal.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/MoveBaseActionGoal.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionGoal.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionGoal.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionGoal.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/MoveBaseGoal.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionGoal.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/MoveBaseGoal.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionGoal.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating Javascript code from msgs_demo/MoveBaseActionGoal.msg"
 	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lsy/catkin_ws/devel/share/msgs_demo/msg/MoveBaseActionGoal.msg -Imsgs_demo:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg -Imsgs_demo:/home/lsy/catkin_ws/devel/share/msgs_demo/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p msgs_demo -o /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg
 
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionResult.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionResult.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/MoveBaseActionResult.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionResult.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/MoveBaseResult.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionResult.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionResult.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionResult.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionResult.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/MoveBaseResult.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionResult.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating Javascript code from msgs_demo/MoveBaseActionResult.msg"
 	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lsy/catkin_ws/devel/share/msgs_demo/msg/MoveBaseActionResult.msg -Imsgs_demo:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg -Imsgs_demo:/home/lsy/catkin_ws/devel/share/msgs_demo/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p msgs_demo -o /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg
 
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionFeedback.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionFeedback.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/MoveBaseActionFeedback.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionFeedback.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionFeedback.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/MoveBaseFeedback.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionFeedback.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalID.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionFeedback.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionFeedback.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionFeedback.js: /opt/ros/melodic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionFeedback.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/MoveBaseFeedback.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseActionFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating Javascript code from msgs_demo/MoveBaseActionFeedback.msg"
 	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lsy/catkin_ws/devel/share/msgs_demo/msg/MoveBaseActionFeedback.msg -Imsgs_demo:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg -Imsgs_demo:/home/lsy/catkin_ws/devel/share/msgs_demo/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p msgs_demo -o /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg
 
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseGoal.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseGoal.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/MoveBaseGoal.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseGoal.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseGoal.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating Javascript code from msgs_demo/MoveBaseGoal.msg"
 	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lsy/catkin_ws/devel/share/msgs_demo/msg/MoveBaseGoal.msg -Imsgs_demo:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg -Imsgs_demo:/home/lsy/catkin_ws/devel/share/msgs_demo/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p msgs_demo -o /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg
@@ -453,10 +453,10 @@ ROS-Academy-for-Beginners/msgs_demo/CMakeFiles/msgs_demo_generate_messages_nodej
 
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseFeedback.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseFeedback.js: /home/lsy/catkin_ws/devel/share/msgs_demo/msg/MoveBaseFeedback.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseFeedback.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg/MoveBaseFeedback.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating Javascript code from msgs_demo/MoveBaseFeedback.msg"
 	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lsy/catkin_ws/devel/share/msgs_demo/msg/MoveBaseFeedback.msg -Imsgs_demo:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg -Imsgs_demo:/home/lsy/catkin_ws/devel/share/msgs_demo/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p msgs_demo -o /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/msg
@@ -473,43 +473,43 @@ ROS-Academy-for-Beginners/msgs_demo/CMakeFiles/msgs_demo_generate_messages_nodej
 
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/SetCameraInfo.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/SetCameraInfo.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/srv/SetCameraInfo.srv
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/SetCameraInfo.js: /opt/ros/melodic/share/sensor_msgs/msg/CameraInfo.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/SetCameraInfo.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/SetCameraInfo.js: /opt/ros/melodic/share/sensor_msgs/msg/RegionOfInterest.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/SetCameraInfo.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/SetCameraInfo.js: /opt/ros/melodic/share/sensor_msgs/msg/CameraInfo.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating Javascript code from msgs_demo/SetCameraInfo.srv"
 	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/srv/SetCameraInfo.srv -Imsgs_demo:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg -Imsgs_demo:/home/lsy/catkin_ws/devel/share/msgs_demo/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p msgs_demo -o /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv
 
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/GetPlan.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/GetPlan.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/srv/GetPlan.srv
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/GetPlan.js: /opt/ros/melodic/share/nav_msgs/msg/Path.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/GetPlan.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/GetPlan.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/GetPlan.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/GetPlan.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/GetPlan.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/GetPlan.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating Javascript code from msgs_demo/GetPlan.srv"
 	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/srv/GetPlan.srv -Imsgs_demo:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg -Imsgs_demo:/home/lsy/catkin_ws/devel/share/msgs_demo/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p msgs_demo -o /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv
 
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/SetMap.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/SetMap.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/srv/SetMap.srv
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/SetMap.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/SetMap.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseWithCovariance.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/SetMap.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/SetMap.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseWithCovarianceStamped.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/SetMap.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/SetMap.js: /opt/ros/melodic/share/nav_msgs/msg/MapMetaData.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/SetMap.js: /opt/ros/melodic/share/nav_msgs/msg/OccupancyGrid.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/SetMap.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/SetMap.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/SetMap.js: /opt/ros/melodic/share/geometry_msgs/msg/PoseWithCovarianceStamped.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/SetMap.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/SetMap.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating Javascript code from msgs_demo/SetMap.srv"
 	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/srv/SetMap.srv -Imsgs_demo:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg -Imsgs_demo:/home/lsy/catkin_ws/devel/share/msgs_demo/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p msgs_demo -o /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv
 
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/GetMap.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/GetMap.js: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/srv/GetMap.srv
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/GetMap.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/GetMap.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/GetMap.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/GetMap.js: /opt/ros/melodic/share/nav_msgs/msg/MapMetaData.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/GetMap.js: /opt/ros/melodic/share/nav_msgs/msg/OccupancyGrid.msg
-/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/GetMap.js: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/GetMap.js: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/GetMap.js: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
 /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv/GetMap.js: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Generating Javascript code from msgs_demo/GetMap.srv"
 	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/srv/GetMap.srv -Imsgs_demo:/home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg -Imsgs_demo:/home/lsy/catkin_ws/devel/share/msgs_demo/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -p msgs_demo -o /home/lsy/catkin_ws/devel/share/gennodejs/ros/msgs_demo/srv

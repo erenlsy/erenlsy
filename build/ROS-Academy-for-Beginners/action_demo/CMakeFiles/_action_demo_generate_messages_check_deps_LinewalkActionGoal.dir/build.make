@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/lsy/catkin_ws/build
 include ROS-Academy-for-Beginners/action_demo/CMakeFiles/_action_demo_generate_messages_check_deps_LinewalkActionGoal.dir/progress.make
 
 ROS-Academy-for-Beginners/action_demo/CMakeFiles/_action_demo_generate_messages_check_deps_LinewalkActionGoal:
-	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/action_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py action_demo /home/lsy/catkin_ws/devel/share/action_demo/msg/LinewalkActionGoal.msg action_demo/LinewalkGoal:std_msgs/Header:actionlib_msgs/GoalID
+	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/action_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py action_demo /home/lsy/catkin_ws/devel/share/action_demo/msg/LinewalkActionGoal.msg std_msgs/Header:actionlib_msgs/GoalID:action_demo/LinewalkGoal
 
 _action_demo_generate_messages_check_deps_LinewalkActionGoal: ROS-Academy-for-Beginners/action_demo/CMakeFiles/_action_demo_generate_messages_check_deps_LinewalkActionGoal
 _action_demo_generate_messages_check_deps_LinewalkActionGoal: ROS-Academy-for-Beginners/action_demo/CMakeFiles/_action_demo_generate_messages_check_deps_LinewalkActionGoal.dir/build.make

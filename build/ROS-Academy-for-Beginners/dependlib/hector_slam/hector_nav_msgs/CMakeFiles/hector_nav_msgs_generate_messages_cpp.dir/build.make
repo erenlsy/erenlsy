@@ -62,9 +62,9 @@ ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs/CMakeFiles/hecto
 
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv
-/home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/melodic/share/geometry_msgs/msg/PointStamped.msg
+/home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/melodic/share/gencpp/msg.h.template
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/melodic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from hector_nav_msgs/GetDistanceToObstacle.srv"
@@ -72,11 +72,11 @@ ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs/CMakeFiles/hecto
 
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv
-/home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
-/home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/melodic/share/nav_msgs/msg/Path.msg
+/home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/melodic/share/gencpp/msg.h.template
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/melodic/share/gencpp/srv.h.template
@@ -85,11 +85,11 @@ ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs/CMakeFiles/hecto
 
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv
-/home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
-/home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/melodic/share/nav_msgs/msg/Path.msg
+/home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/melodic/share/gencpp/msg.h.template
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/melodic/share/gencpp/srv.h.template
@@ -98,10 +98,10 @@ ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs/CMakeFiles/hecto
 
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetSearchPosition.h: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv
-/home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/melodic/share/gencpp/msg.h.template
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/melodic/share/gencpp/srv.h.template
@@ -110,10 +110,10 @@ ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs/CMakeFiles/hecto
 
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetNormal.h: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs/srv/GetNormal.srv
-/home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/melodic/share/geometry_msgs/msg/PointStamped.msg
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/melodic/share/gencpp/msg.h.template
 /home/lsy/catkin_ws/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/melodic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from hector_nav_msgs/GetNormal.srv"

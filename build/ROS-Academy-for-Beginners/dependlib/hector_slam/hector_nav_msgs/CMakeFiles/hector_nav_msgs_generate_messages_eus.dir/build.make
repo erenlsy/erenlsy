@@ -63,50 +63,50 @@ ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs/CMakeFiles/hecto
 
 /home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetDistanceToObstacle.l: /opt/ros/melodic/lib/geneus/gen_eus.py
 /home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetDistanceToObstacle.l: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv
-/home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetDistanceToObstacle.l: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
 /home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetDistanceToObstacle.l: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetDistanceToObstacle.l: /opt/ros/melodic/share/geometry_msgs/msg/PointStamped.msg
+/home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetDistanceToObstacle.l: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from hector_nav_msgs/GetDistanceToObstacle.srv"
 	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv
 
 /home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetRecoveryInfo.l: /opt/ros/melodic/lib/geneus/gen_eus.py
 /home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetRecoveryInfo.l: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv
-/home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetRecoveryInfo.l: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
-/home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetRecoveryInfo.l: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetRecoveryInfo.l: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
 /home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetRecoveryInfo.l: /opt/ros/melodic/share/nav_msgs/msg/Path.msg
+/home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetRecoveryInfo.l: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
 /home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetRecoveryInfo.l: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetRecoveryInfo.l: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetRecoveryInfo.l: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
 /home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetRecoveryInfo.l: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from hector_nav_msgs/GetRecoveryInfo.srv"
 	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv
 
 /home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetRobotTrajectory.l: /opt/ros/melodic/lib/geneus/gen_eus.py
 /home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetRobotTrajectory.l: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv
-/home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetRobotTrajectory.l: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
-/home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetRobotTrajectory.l: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetRobotTrajectory.l: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
 /home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetRobotTrajectory.l: /opt/ros/melodic/share/nav_msgs/msg/Path.msg
+/home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetRobotTrajectory.l: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
 /home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetRobotTrajectory.l: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetRobotTrajectory.l: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetRobotTrajectory.l: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
 /home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetRobotTrajectory.l: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from hector_nav_msgs/GetRobotTrajectory.srv"
 	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv
 
 /home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetSearchPosition.l: /opt/ros/melodic/lib/geneus/gen_eus.py
 /home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetSearchPosition.l: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv
-/home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetSearchPosition.l: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
 /home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetSearchPosition.l: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetSearchPosition.l: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
 /home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetSearchPosition.l: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetSearchPosition.l: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetSearchPosition.l: /opt/ros/melodic/share/geometry_msgs/msg/PoseStamped.msg
 /home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetSearchPosition.l: /opt/ros/melodic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp code from hector_nav_msgs/GetSearchPosition.srv"
 	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv
 
 /home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetNormal.l: /opt/ros/melodic/lib/geneus/gen_eus.py
 /home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetNormal.l: /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs/srv/GetNormal.srv
-/home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetNormal.l: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
 /home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetNormal.l: /opt/ros/melodic/share/std_msgs/msg/Header.msg
 /home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetNormal.l: /opt/ros/melodic/share/geometry_msgs/msg/PointStamped.msg
 /home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetNormal.l: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv/GetNormal.l: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lsy/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating EusLisp code from hector_nav_msgs/GetNormal.srv"
 	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs/srv/GetNormal.srv -Inav_msgs:/opt/ros/melodic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/melodic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/lsy/catkin_ws/devel/share/roseus/ros/hector_nav_msgs/srv
 

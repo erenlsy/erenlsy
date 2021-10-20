@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/lsy/catkin_ws/build
 include ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs/CMakeFiles/_hector_nav_msgs_generate_messages_check_deps_GetDistanceToObstacle.dir/progress.make
 
 ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs/CMakeFiles/_hector_nav_msgs_generate_messages_check_deps_GetDistanceToObstacle:
-	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_nav_msgs /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv geometry_msgs/Point:std_msgs/Header:geometry_msgs/PointStamped
+	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_nav_msgs /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv std_msgs/Header:geometry_msgs/PointStamped:geometry_msgs/Point
 
 _hector_nav_msgs_generate_messages_check_deps_GetDistanceToObstacle: ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs/CMakeFiles/_hector_nav_msgs_generate_messages_check_deps_GetDistanceToObstacle
 _hector_nav_msgs_generate_messages_check_deps_GetDistanceToObstacle: ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs/CMakeFiles/_hector_nav_msgs_generate_messages_check_deps_GetDistanceToObstacle.dir/build.make

@@ -532,7 +532,7 @@
     <plugin name="gps" filename="libhector_gazebo_ros_gps.so">
         <robotNamespace>/4wd_test</robotNamespace>
         <alwaysOn>1</alwaysOn>
-        <updateRate>50.0</updateRate>
+        <updateRate>10</updateRate>
         <bodyName>gps_link</bodyName>
         <frameId>gps_link</frameId>
         <referenceHeading>-90</referenceHeading>

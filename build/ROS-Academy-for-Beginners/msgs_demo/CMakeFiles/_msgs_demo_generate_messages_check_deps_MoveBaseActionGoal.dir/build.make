@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/lsy/catkin_ws/build
 include ROS-Academy-for-Beginners/msgs_demo/CMakeFiles/_msgs_demo_generate_messages_check_deps_MoveBaseActionGoal.dir/progress.make
 
 ROS-Academy-for-Beginners/msgs_demo/CMakeFiles/_msgs_demo_generate_messages_check_deps_MoveBaseActionGoal:
-	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py msgs_demo /home/lsy/catkin_ws/devel/share/msgs_demo/msg/MoveBaseActionGoal.msg std_msgs/Header:actionlib_msgs/GoalID:geometry_msgs/PoseStamped:msgs_demo/MoveBaseGoal:geometry_msgs/Quaternion:geometry_msgs/Point:geometry_msgs/Pose
+	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py msgs_demo /home/lsy/catkin_ws/devel/share/msgs_demo/msg/MoveBaseActionGoal.msg actionlib_msgs/GoalID:geometry_msgs/Point:msgs_demo/MoveBaseGoal:std_msgs/Header:geometry_msgs/PoseStamped:geometry_msgs/Quaternion:geometry_msgs/Pose
 
 _msgs_demo_generate_messages_check_deps_MoveBaseActionGoal: ROS-Academy-for-Beginners/msgs_demo/CMakeFiles/_msgs_demo_generate_messages_check_deps_MoveBaseActionGoal
 _msgs_demo_generate_messages_check_deps_MoveBaseActionGoal: ROS-Academy-for-Beginners/msgs_demo/CMakeFiles/_msgs_demo_generate_messages_check_deps_MoveBaseActionGoal.dir/build.make

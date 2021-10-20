@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-1-g15f4949  Build Version: 1.6.7594.29634
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot name="cutting_arm">
+    <link name="base_link">
+        
+<inertial>
+            <origin xyz="0.017002 -0.043774 -0.45" rpy="0 0 0" />
+            <mass value="259.82" />
+            <inertia ixx="19.535" ixy="-0.0072902" ixz="2.3701E-16" iyy="40.026" iyz="-4.2719E-16" izz="24.485" />
+        </inertial>
+
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://cutting_arm/meshes/base_link.STL" />
+            </geometry>
+            <material name="">
+                <color rgba="1 1 1 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://cutting_arm/meshes/base_link.STL" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="horizental_Link">
+        
+<inertial>
+            <origin xyz="1.3537E-10 0.35616 -0.65643" rpy="0 0 0" />
+            <mass value="100.2" />
+            <inertia ixx="16.549" ixy="-1.4488E-09" ixz="-2.7106E-10" iyy="20.039" iyz="1.2708" izz="8.2437" />
+        </inertial>
+
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://cutting_arm/meshes/horizental_Link.STL" />
+            </geometry>
+            <material name="">
+                <color rgba="0.77647 0.75686 0.73725 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://cutting_arm/meshes/horizental_Link.STL" />
+            </geometry>
+        </collision>
+    </link>
+    <joint name="horizental_joint" type="revolute">
+        <origin xyz="0 0 0.12226" rpy="0 0 0" />
+        <parent link="base_link" />
+        <child link="horizental_Link" />
+        <axis xyz="0 0 -1" />
+        <limit lower="-0.52" upper="0.52" effort="0" velocity="0" />
+    </joint>
+    <link name="vertical_Link">
+        
+<inertial>
+            <origin xyz="0.41015 -1.8201 0.00013672" rpy="0 0 0" />
+            <mass value="161.1" />
+            <inertia ixx="133.12" ixy="51.313" ixz="-0.0037951" iyy="35.318" iyz="-0.011439" izz="160.75" />
+        </inertial>
+
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://cutting_arm/meshes/vertical_Link.STL" />
+            </geometry>
+            <material name="">
+                <color rgba="1 0.97255 0.17647 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://cutting_arm/meshes/vertical_Link.STL" />
+            </geometry>
+        </collision>
+    </link>
+    <joint name="vertical_joint" type="revolute">
+        <origin xyz="0 0.494 -0.11" rpy="3.1416 1.5708 0" />
+        <parent link="horizental_Link" />
+        <child link="vertical_Link" />
+        <axis xyz="0 0 -1" />
+        <limit lower="-0.14" upper="0.3" effort="0" velocity="0" />
+    </joint>
+    <link name="cutting_head">
+        
+<inertial>
+            <origin xyz="0.40079 0.39431 0.00021102" rpy="0 0 0" />
+            <mass value="74.674" />
+            <inertia ixx="22.345" ixy="-6.1015" ixz="0.0037558" iyy="6.8057" iyz="0.019772" izz="21.546" />
+        </inertial>
+
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://cutting_arm/meshes/cutting_head.STL" />
+            </geometry>
+            <material name="">
+                <color rgba="0.64706 0.61961 0.58824 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://cutting_arm/meshes/cutting_head.STL" />
+            </geometry>
+        </collision>
+    </link>
+    <joint name="cutting_head_joint" type="revolute">
+        <origin xyz="1.4422 -3.2584 0" rpy="0 0 0" />
+        <parent link="vertical_Link" />
+        <child link="cutting_head" />
+        <axis xyz="0 0 -1" />
+        <limit lower="-0.38" upper="0" effort="0" velocity="0" />
+    </joint>
+    
+<transmission name="trans_horizental_joint">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="horizental_joint">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="horizental_joint_motor">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+    <transmission name="trans_vertical_joint">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="vertical_joint">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="vertical_joint_motor">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+    <transmission name="trans_cutting_head_joint">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="cutting_head_joint">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="cutting_head_joint_motor">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+    <gazebo>
+        <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+            <robotNamespace>/</robotNamespace>
+        </plugin>
+    </gazebo>
+</robot>

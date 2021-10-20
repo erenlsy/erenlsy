@@ -1,7 +1,0 @@
-[01m[K/home/lsy/catkin_ws/src/learning/robot_sim_lsy/scripts/pub_velocity_controller_command.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/Float64: No such file or directory
- #include [01;31m[K"std_msgs/Float64"[m[K
-          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-make[2]: *** [CMakeFiles/pub_velocity_controller_command.dir/scripts/pub_velocity_controller_command.cpp.o] Error 1
-make[1]: *** [CMakeFiles/pub_velocity_controller_command.dir/all] Error 2
-make: *** [all] Error 2

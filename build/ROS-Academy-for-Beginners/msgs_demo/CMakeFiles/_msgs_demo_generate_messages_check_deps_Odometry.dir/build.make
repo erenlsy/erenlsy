@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/lsy/catkin_ws/build
 include ROS-Academy-for-Beginners/msgs_demo/CMakeFiles/_msgs_demo_generate_messages_check_deps_Odometry.dir/progress.make
 
 ROS-Academy-for-Beginners/msgs_demo/CMakeFiles/_msgs_demo_generate_messages_check_deps_Odometry:
-	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py msgs_demo /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/Odometry.msg msgs_demo/Quaternion:msgs_demo/Point:std_msgs/Header:msgs_demo/TwistWithCovariance:msgs_demo/PoseWithCovariance:msgs_demo/Vector3:msgs_demo/Pose:msgs_demo/Twist
+	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py msgs_demo /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/Odometry.msg msgs_demo/PoseWithCovariance:msgs_demo/TwistWithCovariance:msgs_demo/Point:msgs_demo/Quaternion:std_msgs/Header:msgs_demo/Pose:msgs_demo/Twist:msgs_demo/Vector3
 
 _msgs_demo_generate_messages_check_deps_Odometry: ROS-Academy-for-Beginners/msgs_demo/CMakeFiles/_msgs_demo_generate_messages_check_deps_Odometry
 _msgs_demo_generate_messages_check_deps_Odometry: ROS-Academy-for-Beginners/msgs_demo/CMakeFiles/_msgs_demo_generate_messages_check_deps_Odometry.dir/build.make

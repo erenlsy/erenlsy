@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/lsy/catkin_ws/build
 include ROS-Academy-for-Beginners/msgs_demo/CMakeFiles/_msgs_demo_generate_messages_check_deps_PoseStamped.dir/progress.make
 
 ROS-Academy-for-Beginners/msgs_demo/CMakeFiles/_msgs_demo_generate_messages_check_deps_PoseStamped:
-	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py msgs_demo /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/PoseStamped.msg msgs_demo/Point:msgs_demo/Pose:msgs_demo/Quaternion:std_msgs/Header
+	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/msgs_demo && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py msgs_demo /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/msgs_demo/msg/PoseStamped.msg std_msgs/Header:msgs_demo/Pose:msgs_demo/Point:msgs_demo/Quaternion
 
 _msgs_demo_generate_messages_check_deps_PoseStamped: ROS-Academy-for-Beginners/msgs_demo/CMakeFiles/_msgs_demo_generate_messages_check_deps_PoseStamped
 _msgs_demo_generate_messages_check_deps_PoseStamped: ROS-Academy-for-Beginners/msgs_demo/CMakeFiles/_msgs_demo_generate_messages_check_deps_PoseStamped.dir/build.make

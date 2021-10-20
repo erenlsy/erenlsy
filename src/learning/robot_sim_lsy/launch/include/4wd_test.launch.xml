@@ -35,8 +35,8 @@ respawn="false" output="screen">
 <node name="robot_keyboard" pkg="robot_sim_lsy" type="robot_keyboard">
 </node>
 
-<node name="velocity_keyboard_controller" pkg="robot_sim_lsy" type="velocity_keyboard_controller">
-</node>
-
+<!-- <node name="velocity_keyboard_controller" pkg="robot_sim_lsy" type="velocity_keyboard_controller">
+</node> -->
+  <node pkg="robot_sim_lsy" type="turtle_teleop_joy" name="teleop"/>
 
 </launch>

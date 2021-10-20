@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/lsy/catkin_ws/build
 include ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs/CMakeFiles/_hector_nav_msgs_generate_messages_check_deps_GetNormal.dir/progress.make
 
 ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs/CMakeFiles/_hector_nav_msgs_generate_messages_check_deps_GetNormal:
-	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_nav_msgs /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs/srv/GetNormal.srv geometry_msgs/Point:std_msgs/Header:geometry_msgs/PointStamped:geometry_msgs/Vector3
+	cd /home/lsy/catkin_ws/build/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_nav_msgs /home/lsy/catkin_ws/src/ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs/srv/GetNormal.srv std_msgs/Header:geometry_msgs/PointStamped:geometry_msgs/Vector3:geometry_msgs/Point
 
 _hector_nav_msgs_generate_messages_check_deps_GetNormal: ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs/CMakeFiles/_hector_nav_msgs_generate_messages_check_deps_GetNormal
 _hector_nav_msgs_generate_messages_check_deps_GetNormal: ROS-Academy-for-Beginners/dependlib/hector_slam/hector_nav_msgs/CMakeFiles/_hector_nav_msgs_generate_messages_check_deps_GetNormal.dir/build.make

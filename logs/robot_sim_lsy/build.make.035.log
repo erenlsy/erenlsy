@@ -1,6 +1,0 @@
-[35m[1mScanning dependencies of target velocity_keyboard_controller[0m
-[ 16%] [32mBuilding CXX object CMakeFiles/velocity_keyboard_controller.dir/src/velocity_keyboard_controller.cpp.o[0m
-[ 50%] Built target robot_keyboard
-[ 83%] Built target pub_velocity_controller_command
-[100%] [32m[1mLinking CXX executable /home/lsy/catkin_ws/devel/lib/robot_sim_lsy/velocity_keyboard_controller[0m
-[100%] Built target velocity_keyboard_controller
