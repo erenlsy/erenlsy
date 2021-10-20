@@ -1,8 +1,0 @@
-prefix=/home/lsy/catkin_ws/devel
-
-Name: robot_sim_lsy
-Description: Description of robot_sim_lsy
-Version: 0.0.2
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: urdf xacro

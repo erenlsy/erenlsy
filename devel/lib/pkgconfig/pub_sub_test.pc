@@ -1,8 +1,0 @@
-prefix=/home/lsy/catkin_ws/devel
-
-Name: pub_sub_test
-Description: Description of pub_sub_test
-Version: 0.1.0
-Cflags: 
-Libs: -L${prefix}/lib -lpub_sub_test
-Requires: std_msgs roscpp geometry_msgs

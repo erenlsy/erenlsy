@@ -1,8 +1,0 @@
-prefix=/home/lsy/catkin_ws/install
-
-Name: robot_urdf_lsy
-Description: Description of robot_urdf_lsy
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

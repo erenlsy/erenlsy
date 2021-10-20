@@ -1,8 +1,0 @@
-prefix=/home/lsy/catkin_ws/devel
-
-Name: hector_gazebo_thermal_camera
-Description: Description of hector_gazebo_thermal_camera
-Version: 0.5.3
-Cflags: -I/home/lsy/catkin_ws/src/hector_gazebo-melodic-devel/hector_gazebo_thermal_camera/include
-Libs: -L${prefix}/lib 
-Requires: gazebo_plugins

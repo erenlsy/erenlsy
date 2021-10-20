@@ -1,2 +1,0 @@
-set(action_demo_MESSAGE_FILES "/home/lsy/catkin_ws/devel/share/action_demo/msg/LinewalkAction.msg;/home/lsy/catkin_ws/devel/share/action_demo/msg/LinewalkActionGoal.msg;/home/lsy/catkin_ws/devel/share/action_demo/msg/LinewalkActionResult.msg;/home/lsy/catkin_ws/devel/share/action_demo/msg/LinewalkActionFeedback.msg;/home/lsy/catkin_ws/devel/share/action_demo/msg/LinewalkGoal.msg;/home/lsy/catkin_ws/devel/share/action_demo/msg/LinewalkResult.msg;/home/lsy/catkin_ws/devel/share/action_demo/msg/LinewalkFeedback.msg")
-set(action_demo_SERVICE_FILES "")
